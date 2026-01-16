@@ -37,8 +37,7 @@
     "thumbnail": "/assets/images/products/ozempic-injection.png",
     "prices": {
       "monthly": 399,
-      "threeMonthly": 349,
-      "sixMonthly": 349
+      "threeMonthly": 349
     },
     "productBundleIds": {
       "monthly": "ozempic-injection-monthly",
@@ -49,11 +48,11 @@
     "type": "injection",
     "category": "weight-loss",
     "features": [
-      "Weekly subcutaneous injection",
-      "GLP-1 receptor agonist",
-      "Weight loss support",
       "Blood sugar control",
-      "Prescription required"
+      "GLP-1 receptor agonist",
+      "Prescription required",
+      "Weekly subcutaneous injection",
+      "Weight loss support"
     ],
     "quiz": null,
     "order": 2
@@ -88,4 +87,3 @@
     "order": 3
   }
 ]
-
