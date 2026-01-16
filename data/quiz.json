@@ -21178,6 +21178,396 @@
         }
       ],
       "isManual": true
+    },
+    {
+      "id": "quiz-1768584674234-eq1wdjl",
+      "slug": "test-all-question-types-custom-1768584674234",
+      "name": "Complete Question Types Test Quiz (Custom)",
+      "description": "A comprehensive test quiz showcasing all available question types",
+      "version": "1.0.0",
+      "metadata": {
+        "category": "Testing",
+        "estimatedTime": "10-15 minutes",
+        "targetAudience": "Developers & Testers",
+        "compliance": [
+          "HIPAA"
+        ]
+      },
+      "productBundleIds": [
+        "test-bundle-1"
+      ],
+      "progressSteps": [
+        {
+          "id": "basic-inputs",
+          "slug": "basic-inputs",
+          "name": "Basic Inputs",
+          "description": "Text, number, email, tel, textarea",
+          "color": "#3B82F6",
+          "order": 1
+        },
+        {
+          "id": "selection-types",
+          "slug": "selection-types",
+          "name": "Selection Types",
+          "description": "Dropdown, single, multi, checkbox",
+          "color": "#10B981",
+          "order": 2
+        },
+        {
+          "id": "special-types",
+          "slug": "special-types",
+          "name": "Special Types",
+          "description": "Marketing, before/after, file, medical",
+          "color": "#8B5CF6",
+          "order": 3
+        },
+        {
+          "id": "display-types",
+          "slug": "display-types",
+          "name": "Display Types",
+          "description": "Perfect, weight summary",
+          "color": "#F59E0B",
+          "order": 4
+        }
+      ],
+      "formSteps": [
+        {
+          "id": "basic-text-inputs",
+          "slug": "basic-text-inputs",
+          "title": "Basic Text Inputs",
+          "heading1": "Text Input Types",
+          "subtext": "Testing all basic text input question types",
+          "progressStepId": "basic-inputs",
+          "order": 1,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "text-input",
+              "slug": "text-input",
+              "type": "text",
+              "question": "Enter your name",
+              "displayQuestion": "Full Name",
+              "required": true,
+              "placeholder": "John Doe",
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "TEXT",
+              "icon": "/assets/images/icons/user.svg"
+            },
+            {
+              "id": "email-input",
+              "slug": "email-input",
+              "type": "email",
+              "question": "What is your email?",
+              "displayQuestion": "Email Address",
+              "required": true,
+              "placeholder": "john@example.com",
+              "question_order": 2,
+              "validation": [
+                "required",
+                "email"
+              ],
+              "api_type": "TEXT"
+            },
+            {
+              "id": "phone-input",
+              "slug": "phone-input",
+              "type": "tel",
+              "question": "What is your phone number?",
+              "displayQuestion": "Phone Number",
+              "required": false,
+              "placeholder": "(555) 123-4567",
+              "question_order": 3,
+              "validation": [
+                "phone"
+              ],
+              "api_type": "TEXT"
+            },
+            {
+              "id": "number-input",
+              "slug": "number-input",
+              "type": "number",
+              "question": "How old are you?",
+              "displayQuestion": "Age",
+              "required": true,
+              "placeholder": "25",
+              "question_order": 4,
+              "validation": [
+                "required"
+              ],
+              "api_type": "TEXT"
+            },
+            {
+              "id": "textarea-input",
+              "slug": "textarea-input",
+              "type": "textarea",
+              "question": "Tell us about yourself",
+              "displayQuestion": "Bio",
+              "required": false,
+              "placeholder": "Enter a brief description...",
+              "question_order": 5,
+              "validation": null,
+              "api_type": "TEXT"
+            }
+          ]
+        },
+        {
+          "id": "selection-questions",
+          "slug": "selection-questions",
+          "title": "Selection Questions",
+          "heading1": "Selection Types",
+          "subtext": "Testing dropdown, single select, multi-select, and checkbox",
+          "progressStepId": "selection-types",
+          "order": 2,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "dropdown-question",
+              "slug": "dropdown-question",
+              "type": "DROPDOWN",
+              "question": "Select your country",
+              "displayQuestion": "Country",
+              "required": true,
+              "placeholder": "Choose a country",
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "TEXT",
+              "options": [
+                {
+                  "id": "opt-us",
+                  "question_id": "dropdown-question",
+                  "value": "US",
+                  "label": "United States",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-ca",
+                  "question_id": "dropdown-question",
+                  "value": "CA",
+                  "label": "Canada",
+                  "option_order": 2
+                },
+                {
+                  "id": "opt-mx",
+                  "question_id": "dropdown-question",
+                  "value": "MX",
+                  "label": "Mexico",
+                  "option_order": 3
+                }
+              ]
+            },
+            {
+              "id": "single-select",
+              "slug": "single-select",
+              "type": "SINGLESELECT",
+              "question": "Choose your preferred method",
+              "displayQuestion": "Method",
+              "required": true,
+              "question_order": 2,
+              "validation": [
+                "required"
+              ],
+              "api_type": "SINGLESELECT",
+              "displayAsRow": true,
+              "options": [
+                {
+                  "id": "opt-method-1",
+                  "question_id": "single-select",
+                  "value": "injection",
+                  "label": "Injection",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-method-2",
+                  "question_id": "single-select",
+                  "value": "oral",
+                  "label": "Oral",
+                  "option_order": 2
+                }
+              ],
+              "optionImages": [
+                "/assets/images/icons/injection.svg",
+                "/assets/images/icons/pills.svg"
+              ]
+            },
+            {
+              "id": "multi-select",
+              "slug": "multi-select",
+              "type": "MULTISELECT",
+              "question": "Select all that apply",
+              "displayQuestion": "Preferences",
+              "required": false,
+              "question_order": 3,
+              "validation": null,
+              "api_type": "MULTISELECT",
+              "displayAsRow": true,
+              "options": [
+                {
+                  "id": "opt-pref-1",
+                  "question_id": "multi-select",
+                  "value": "option1",
+                  "label": "Option 1",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-pref-2",
+                  "question_id": "multi-select",
+                  "value": "option2",
+                  "label": "Option 2",
+                  "option_order": 2
+                },
+                {
+                  "id": "opt-pref-3",
+                  "question_id": "multi-select",
+                  "value": "option3",
+                  "label": "Option 3",
+                  "option_order": 3
+                }
+              ]
+            },
+            {
+              "id": "checkbox-question",
+              "slug": "checkbox-question",
+              "type": "CHECKBOX",
+              "question": "I agree to the terms",
+              "displayQuestion": "Terms Agreement",
+              "required": true,
+              "question_order": 4,
+              "validation": [
+                "required"
+              ],
+              "api_type": "SINGLESELECT",
+              "displayAsRow": false,
+              "options": [
+                {
+                  "id": "opt-agree",
+                  "question_id": "checkbox-question",
+                  "value": "yes",
+                  "label": "I agree",
+                  "option_order": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "special-question-types",
+          "slug": "special-question-types",
+          "title": "Special Question Types",
+          "heading1": "Special Types",
+          "subtext": "Marketing, before/after, file upload, medical review",
+          "progressStepId": "special-types",
+          "order": 3,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "marketing-question",
+              "slug": "marketing-question",
+              "type": "MARKETING",
+              "question": "Success Stories",
+              "required": false,
+              "question_order": 1,
+              "validation": null,
+              "api_type": "MARKETING",
+              "image": "/assets/images/marketing-hero.jpg",
+              "displayStatistics": true
+            },
+            {
+              "id": "before-after",
+              "slug": "before-after",
+              "type": "BEFORE_AFTER",
+              "question": "See the transformation",
+              "required": false,
+              "question_order": 2,
+              "validation": null,
+              "api_type": "MARKETING",
+              "beforeImage": "/assets/images/before-after-1.png",
+              "afterImage": "/assets/images/before-after-2.png",
+              "quote": "I lost 30 pounds in 3 months!"
+            },
+            {
+              "id": "file-upload",
+              "slug": "file-upload",
+              "type": "FILE_INPUT",
+              "question": "Upload your ID",
+              "displayQuestion": "ID Upload",
+              "required": true,
+              "question_order": 3,
+              "validation": [
+                "required"
+              ],
+              "api_type": "FILE"
+            },
+            {
+              "id": "medical-review",
+              "slug": "medical-review",
+              "type": "MEDICAL_REVIEW",
+              "question": "Medical Review",
+              "displayQuestion": "Review Your Information",
+              "required": false,
+              "question_order": 4,
+              "validation": null,
+              "api_type": "TEXT",
+              "calculatedValues": {
+                "bmi": "25.5",
+                "currentWeight": "180",
+                "weeksToGoal": "12"
+              },
+              "candidateStatement": "Based on your responses, you are a good candidate for this treatment."
+            }
+          ],
+          "render_condition": {
+            "conditions": [
+              {
+                "field": "number-input",
+                "operator": "equals",
+                "value": "14"
+              }
+            ],
+            "logicalOperator": "AND"
+          }
+        },
+        {
+          "id": "display-question-types",
+          "slug": "display-question-types",
+          "title": "Display Question Types",
+          "heading1": "Display Types",
+          "subtext": "Perfect and weight summary display types",
+          "progressStepId": "display-types",
+          "order": 4,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "perfect-question",
+              "slug": "perfect-question",
+              "type": "PERFECT",
+              "question": "Perfect Match",
+              "required": false,
+              "question_order": 1,
+              "validation": null,
+              "api_type": "TEXT",
+              "heading1": "You're a Perfect Match!",
+              "subtext": "Based on your responses, this treatment is ideal for you.",
+              "dynamicSubtext": "Your goal weight of {{goalWeight}}lbs is achievable!"
+            },
+            {
+              "id": "weight-summary",
+              "slug": "weight-summary",
+              "type": "WEIGHT_SUMMARY",
+              "question": "Weight Summary",
+              "required": false,
+              "question_order": 2,
+              "validation": null,
+              "api_type": "TEXT"
+            }
+          ]
+        }
+      ],
+      "isManual": true
     }
   ],
   "templates": [],
