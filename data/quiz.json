@@ -21093,7 +21093,7 @@
         {
           "id": "pace",
           "slug": "pace",
-          "title": "How is that pace for you?",
+          "title": "How is that pace for you?s",
           "heading1": "With medication, you'll lose {{weeklyLossRange}} pounds per week.",
           "dynamicSubtext": "It will take about {{timeToGoal}} weeks to reach your goal weight of {{goalWeight}}.",
           "subtext": "This is an estimate. Individual results may vary.",
