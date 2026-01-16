@@ -12,7 +12,7 @@
         "heading": {
           "text": "Raesa, We Got You",
           "type": "text",
-          "color": "bodyColor",
+          "color": "backgroundColor",
           "show": true
         },
         "subheading": {
