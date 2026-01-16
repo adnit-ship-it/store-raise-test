@@ -295,7 +295,7 @@
   "contact": {
     "title": "Contact",
     "show": false,
-    "order": 3,
+    "order": 4,
     "description": "Contact page",
     "pageTitle": "Contact Us: Fill out the form and hear back from us",
     "logo": {
@@ -368,7 +368,7 @@
     "pageTitle": "Explore Our Products",
     "subtitle": "Personalized GLP-1 Medication",
     "categoryButton": "Weight Loss",
-    "order": 4,
+    "order": 3,
     "description": "Products page",
     "navbar": {
       "heights": {
