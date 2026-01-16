@@ -26,7 +26,7 @@
       "Diabetes management",
       "Prescription required"
     ],
-    "quiz": "test-all-question-types",
+    "quiz": "glp1-weight-loss",
     "order": 1
   },
   {
@@ -54,7 +54,7 @@
       "Weekly subcutaneous injection",
       "Weight loss support"
     ],
-    "quiz": "glp1-weight-loss-custom-1768577030891",
+    "quiz": "glp1-weight-loss",
     "order": 2
   },
   {
@@ -83,7 +83,7 @@
       "Methylated form for better absorption",
       "Prescription required"
     ],
-    "quiz": null,
+    "quiz": "glp1-weight-loss",
     "order": 3
   }
 ]
