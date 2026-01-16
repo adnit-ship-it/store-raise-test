@@ -10,9 +10,13 @@
         "category": "Testing",
         "estimatedTime": "10-15 minutes",
         "targetAudience": "Developers & Testers",
-        "compliance": ["HIPAA"]
+        "compliance": [
+          "HIPAA"
+        ]
       },
-      "productBundleIds": ["test-bundle-1"],
+      "productBundleIds": [
+        "test-bundle-1"
+      ],
       "progressSteps": [
         {
           "id": "basic-inputs",
@@ -67,7 +71,9 @@
               "required": true,
               "placeholder": "John Doe",
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "icon": "/assets/images/icons/user.svg"
             },
@@ -80,7 +86,10 @@
               "required": true,
               "placeholder": "john@example.com",
               "question_order": 2,
-              "validation": ["required", "email"],
+              "validation": [
+                "required",
+                "email"
+              ],
               "api_type": "TEXT"
             },
             {
@@ -92,7 +101,9 @@
               "required": false,
               "placeholder": "(555) 123-4567",
               "question_order": 3,
-              "validation": ["phone"],
+              "validation": [
+                "phone"
+              ],
               "api_type": "TEXT"
             },
             {
@@ -104,7 +115,9 @@
               "required": true,
               "placeholder": "25",
               "question_order": 4,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT"
             },
             {
@@ -140,7 +153,9 @@
               "required": true,
               "placeholder": "Choose a country",
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "options": [
                 {
@@ -174,7 +189,9 @@
               "displayQuestion": "Method",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -241,7 +258,9 @@
               "displayQuestion": "Terms Agreement",
               "required": true,
               "question_order": 4,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": false,
               "options": [
@@ -299,7 +318,9 @@
               "displayQuestion": "ID Upload",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "FILE"
             },
             {
@@ -368,7 +389,10 @@
         "category": "medical",
         "estimatedTime": "15-20 minutes",
         "targetAudience": "Adults seeking weight loss medication",
-        "compliance": ["HIPAA", "FDA guidelines"]
+        "compliance": [
+          "HIPAA",
+          "FDA guidelines"
+        ]
       },
       "progressSteps": [
         {
@@ -441,7 +465,11 @@
             ],
             "calculate": {
               "type": "bmi",
-              "fields": ["feet", "inches", "weight"]
+              "fields": [
+                "feet",
+                "inches",
+                "weight"
+              ]
             },
             "template": "BMI: {{value}}"
           },
@@ -453,7 +481,9 @@
               "question": "Feet",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "options": [
                 {
@@ -514,7 +544,9 @@
               "question": "Inches",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "options": [
                 {
@@ -610,7 +642,9 @@
               "question": "Weight (in lbs)",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your weight"
             }
@@ -631,7 +665,9 @@
               "type": "number",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your goal weight"
             }
@@ -652,7 +688,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -717,7 +755,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -881,7 +921,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -931,7 +973,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -970,7 +1014,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -1085,7 +1131,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -1150,7 +1198,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -1242,7 +1292,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -1300,7 +1352,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "image": "/assets/images/intake-form/marketing/marketing7.png",
@@ -1338,7 +1392,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -1387,7 +1443,9 @@
               "question": "Month",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -1483,7 +1541,9 @@
               "question": "Day",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -1712,7 +1772,9 @@
               "question": "Year",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -2365,7 +2427,10 @@
               "question": "Email Address",
               "required": true,
               "question_order": 1,
-              "validation": ["required", "email"],
+              "validation": [
+                "required",
+                "email"
+              ],
               "api_type": "TEXT",
               "placeholder": "you@example.com",
               "icon": "/assets/images/intake-form/icons/email-icon.svg"
@@ -2377,7 +2442,10 @@
               "question": "Phone Number",
               "required": true,
               "question_order": 2,
-              "validation": ["required", "phone"],
+              "validation": [
+                "required",
+                "phone"
+              ],
               "api_type": "TEXT",
               "placeholder": "123-456-7890",
               "icon": "/assets/images/intake-form/icons/phone-icon.svg"
@@ -2388,7 +2456,9 @@
               "type": "CHECKBOX",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": false,
               "options": [
@@ -2419,7 +2489,9 @@
               "question": "First Name",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your first name"
             },
@@ -2430,7 +2502,9 @@
               "question": "Last Name",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your last name"
             }
@@ -2448,7 +2522,10 @@
         "category": "NAD+ Therapy",
         "estimatedTime": "15-20 minutes",
         "targetAudience": "Adults interested in NAD+ therapy for wellness and anti-aging",
-        "compliance": ["HIPAA Compliant", "Medical Intake Form"]
+        "compliance": [
+          "HIPAA Compliant",
+          "Medical Intake Form"
+        ]
       },
       "progressSteps": [
         {
@@ -2509,7 +2586,9 @@
               "displayQuestion": "Understanding your activity level helps us assess your needs",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -2568,7 +2647,9 @@
               "displayQuestion": "This information helps us ensure safe treatment",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -2627,7 +2708,9 @@
               "displayQuestion": "Select all that apply",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -2761,7 +2844,11 @@
             ],
             "calculate": {
               "type": "bmi",
-              "fields": ["feet", "inches", "weight"]
+              "fields": [
+                "feet",
+                "inches",
+                "weight"
+              ]
             },
             "template": "BMI: {{value}}"
           },
@@ -2773,7 +2860,9 @@
               "question": "Feet",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "options": [
                 {
@@ -2834,7 +2923,9 @@
               "question": "Inches",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "options": [
                 {
@@ -2930,7 +3021,9 @@
               "question": "Weight (in lbs)",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your weight"
             }
@@ -2952,7 +3045,9 @@
               "displayQuestion": "This helps us provide personalized care",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -2990,7 +3085,9 @@
               "displayQuestion": "Please provide details if applicable",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Describe any liver issues or type N/A if none"
             }
@@ -3012,7 +3109,9 @@
               "displayQuestion": "Please provide details if applicable",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Describe any heart issues or type N/A if none"
             }
@@ -3034,7 +3133,9 @@
               "displayQuestion": "Please provide details if applicable",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Describe your smoking status or type N/A if none"
             }
@@ -3056,7 +3157,9 @@
               "displayQuestion": "Check all that apply",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -3129,7 +3232,9 @@
               "displayQuestion": "Please provide details if applicable",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Describe your primary care situation or type N/A if none"
             }
@@ -3151,7 +3256,9 @@
               "displayQuestion": "This helps us understand your current health status",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -3189,7 +3296,9 @@
               "displayQuestion": "Please type N/A if none. This helps us avoid potential reactions",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List all known allergies, or type N/A"
             }
@@ -3211,7 +3320,9 @@
               "displayQuestion": "Why are you interested in NAD+ Injections?",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Please describe your interest in NAD+ therapy"
             }
@@ -3233,7 +3344,9 @@
               "displayQuestion": "This helps us understand your experience level",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -3280,7 +3393,9 @@
               "displayQuestion": "This helps us understand your previous experience",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Describe your previous NAD+ experience"
             }
@@ -3302,7 +3417,9 @@
               "displayQuestion": "This helps us determine the best administration method",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -3361,7 +3478,9 @@
               "question": "Month",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -3457,7 +3576,9 @@
               "question": "Day",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -3686,7 +3807,9 @@
               "question": "Year",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -4339,7 +4462,10 @@
               "question": "Email Address",
               "required": true,
               "question_order": 1,
-              "validation": ["required", "email"],
+              "validation": [
+                "required",
+                "email"
+              ],
               "api_type": "TEXT",
               "placeholder": "you@example.com",
               "icon": "/assets/images/intake-form/icons/email-icon.svg"
@@ -4351,7 +4477,10 @@
               "question": "Phone Number",
               "required": true,
               "question_order": 2,
-              "validation": ["required", "phone"],
+              "validation": [
+                "required",
+                "phone"
+              ],
               "api_type": "TEXT",
               "placeholder": "123-456-7890",
               "icon": "/assets/images/intake-form/icons/phone-icon.svg"
@@ -4362,7 +4491,9 @@
               "type": "CHECKBOX",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": false,
               "options": [
@@ -4393,7 +4524,9 @@
               "question": "First Name",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your first name"
             },
@@ -4404,7 +4537,9 @@
               "question": "Last Name",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your last name"
             }
@@ -4422,7 +4557,10 @@
         "category": "Sermorelin Therapy",
         "estimatedTime": "10-15 minutes",
         "targetAudience": "Adults interested in Sermorelin therapy for anti-aging and wellness",
-        "compliance": ["HIPAA Compliant", "Medical Intake Form"]
+        "compliance": [
+          "HIPAA Compliant",
+          "Medical Intake Form"
+        ]
       },
       "progressSteps": [
         {
@@ -4475,7 +4613,9 @@
               "displayQuestion": "This information helps us ensure safe treatment",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -4527,7 +4667,9 @@
               "displayQuestion": "Please check all that apply. This helps us understand your goals",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -4600,7 +4742,9 @@
               "displayQuestion": "Please select all that apply. This helps us assess safety",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -4685,7 +4829,11 @@
             ],
             "calculate": {
               "type": "bmi",
-              "fields": ["feet", "inches", "weight"]
+              "fields": [
+                "feet",
+                "inches",
+                "weight"
+              ]
             },
             "template": "BMI: {{value}}"
           },
@@ -4697,7 +4845,9 @@
               "question": "Feet",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "options": [
                 {
@@ -4758,7 +4908,9 @@
               "question": "Inches",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "options": [
                 {
@@ -4854,7 +5006,9 @@
               "question": "Weight (in lbs)",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your weight"
             }
@@ -4876,7 +5030,9 @@
               "displayQuestion": "This helps us provide personalized care",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -4914,7 +5070,9 @@
               "displayQuestion": "Please type N/A if none. This helps us understand your health profile",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List current medical conditions, or type N/A "
             }
@@ -4936,7 +5094,9 @@
               "displayQuestion": "Please include dosages. Type N/A if none.",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List medications with dosages, or type N/A"
             }
@@ -4958,7 +5118,9 @@
               "displayQuestion": "Please type N/A if none. This helps us avoid potential reactions",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List all known allergies, or type N/A if none"
             }
@@ -5001,7 +5163,9 @@
               "question": "Month",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -5097,7 +5261,9 @@
               "question": "Day",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -5326,7 +5492,9 @@
               "question": "Year",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -5979,7 +6147,10 @@
               "question": "Email Address",
               "required": true,
               "question_order": 1,
-              "validation": ["required", "email"],
+              "validation": [
+                "required",
+                "email"
+              ],
               "api_type": "TEXT",
               "placeholder": "you@example.com",
               "icon": "/assets/images/intake-form/icons/email-icon.svg"
@@ -5991,7 +6162,10 @@
               "question": "Phone Number",
               "required": true,
               "question_order": 2,
-              "validation": ["required", "phone"],
+              "validation": [
+                "required",
+                "phone"
+              ],
               "api_type": "TEXT",
               "placeholder": "123-456-7890",
               "icon": "/assets/images/intake-form/icons/phone-icon.svg"
@@ -6002,7 +6176,9 @@
               "type": "CHECKBOX",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": false,
               "options": [
@@ -6033,7 +6209,9 @@
               "question": "First Name",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your first name"
             },
@@ -6044,7 +6222,9 @@
               "question": "Last Name",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your last name"
             }
@@ -6062,7 +6242,10 @@
         "category": "Vitamin B12 Therapy",
         "estimatedTime": "8-12 minutes",
         "targetAudience": "Adults seeking Injectable Vitamin B12 therapy for deficiency or wellness",
-        "compliance": ["HIPAA Compliant", "Medical Intake Form"]
+        "compliance": [
+          "HIPAA Compliant",
+          "Medical Intake Form"
+        ]
       },
       "progressSteps": [
         {
@@ -6115,7 +6298,9 @@
               "displayQuestion": "This helps us understand your current medical status",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -6153,7 +6338,9 @@
               "displayQuestion": "This helps us provide personalized care",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -6203,7 +6390,11 @@
             ],
             "calculate": {
               "type": "bmi",
-              "fields": ["feet", "inches", "weight"]
+              "fields": [
+                "feet",
+                "inches",
+                "weight"
+              ]
             },
             "template": "BMI: {{value}}"
           },
@@ -6215,7 +6406,9 @@
               "question": "Feet",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "options": [
                 {
@@ -6276,7 +6469,9 @@
               "question": "Inches",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "options": [
                 {
@@ -6372,7 +6567,9 @@
               "question": "Weight (in lbs)",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your weight"
             }
@@ -6394,7 +6591,9 @@
               "displayQuestion": "Please check all that apply",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -6467,7 +6666,9 @@
               "displayQuestion": "Please type N/A if none",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List current medical conditions, or type N/A"
             }
@@ -6489,7 +6690,9 @@
               "displayQuestion": "Please include dosages. Type N/A if none.",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List medications with dosages, or type N/A"
             }
@@ -6511,7 +6714,9 @@
               "displayQuestion": "Please type N/A if none",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List all known allergies, or type N/A if none"
             }
@@ -6556,7 +6761,9 @@
               "displayAsRow": true,
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "options": [
                 {
@@ -6599,7 +6806,9 @@
               "question": "Month",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -6695,7 +6904,9 @@
               "question": "Day",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -6924,7 +7135,9 @@
               "question": "Year",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -7577,7 +7790,10 @@
               "question": "Email Address",
               "required": true,
               "question_order": 1,
-              "validation": ["required", "email"],
+              "validation": [
+                "required",
+                "email"
+              ],
               "api_type": "TEXT",
               "placeholder": "you@example.com",
               "icon": "/assets/images/intake-form/icons/email-icon.svg"
@@ -7589,7 +7805,10 @@
               "question": "Phone Number",
               "required": true,
               "question_order": 2,
-              "validation": ["required", "phone"],
+              "validation": [
+                "required",
+                "phone"
+              ],
               "api_type": "TEXT",
               "placeholder": "123-456-7890",
               "icon": "/assets/images/intake-form/icons/phone-icon.svg"
@@ -7600,7 +7819,9 @@
               "type": "CHECKBOX",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": false,
               "options": [
@@ -7631,7 +7852,9 @@
               "question": "First Name",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your first name"
             },
@@ -7642,7 +7865,9 @@
               "question": "Last Name",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your last name"
             }
@@ -7660,7 +7885,10 @@
         "category": "Sexual Health Therapy",
         "estimatedTime": "12-15 minutes",
         "targetAudience": "Men seeking ED treatment and sexual health therapy",
-        "compliance": ["HIPAA Compliant", "Medical Intake Form"]
+        "compliance": [
+          "HIPAA Compliant",
+          "Medical Intake Form"
+        ]
       },
       "progressSteps": [
         {
@@ -7719,7 +7947,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -7776,7 +8006,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -7833,7 +8065,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -7890,7 +8124,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -7947,7 +8183,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -8004,7 +8242,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -8054,7 +8294,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -8111,7 +8353,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -8176,7 +8420,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -8226,7 +8472,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List current medical conditions, or type N/A"
             }
@@ -8246,7 +8494,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -8338,7 +8588,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -8402,7 +8654,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -8536,7 +8790,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -8600,7 +8856,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -8678,7 +8936,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List medications with dosages, or type N/A"
             }
@@ -8698,7 +8958,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List all known allergies, or type N/A"
             }
@@ -8718,7 +8980,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -8806,7 +9070,9 @@
               "question": "Month",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -8902,7 +9168,9 @@
               "question": "Day",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -9131,7 +9399,9 @@
               "question": "Year",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -9784,7 +10054,10 @@
               "question": "Email Address",
               "required": true,
               "question_order": 1,
-              "validation": ["required", "email"],
+              "validation": [
+                "required",
+                "email"
+              ],
               "api_type": "TEXT",
               "placeholder": "you@example.com",
               "icon": "/assets/images/intake-form/icons/email-icon.svg"
@@ -9796,7 +10069,10 @@
               "question": "Phone Number",
               "required": true,
               "question_order": 2,
-              "validation": ["required", "phone"],
+              "validation": [
+                "required",
+                "phone"
+              ],
               "api_type": "TEXT",
               "placeholder": "123-456-7890",
               "icon": "/assets/images/intake-form/icons/phone-icon.svg"
@@ -9807,7 +10083,9 @@
               "type": "CHECKBOX",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": false,
               "options": [
@@ -9834,7 +10112,10 @@
         "category": "Glutathione Therapy",
         "estimatedTime": "8-12 minutes",
         "targetAudience": "Adults seeking glutathione supplementation for wellness and anti-aging",
-        "compliance": ["HIPAA Compliant", "Medical Intake Form"]
+        "compliance": [
+          "HIPAA Compliant",
+          "Medical Intake Form"
+        ]
       },
       "progressSteps": [
         {
@@ -9899,7 +10180,11 @@
             ],
             "calculate": {
               "type": "bmi",
-              "fields": ["feet", "inches", "weight"]
+              "fields": [
+                "feet",
+                "inches",
+                "weight"
+              ]
             },
             "template": "BMI: {{value}}"
           },
@@ -9911,7 +10196,9 @@
               "question": "Feet",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "options": [
                 {
@@ -9972,7 +10259,9 @@
               "question": "Inches",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "options": [
                 {
@@ -10068,7 +10357,9 @@
               "question": "Weight (in lbs)",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your weight"
             }
@@ -10145,7 +10436,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -10195,7 +10488,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -10245,7 +10540,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List current medical conditions, or type N/A"
             }
@@ -10265,7 +10562,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List medications with dosages, or type N/A"
             }
@@ -10285,7 +10584,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List all known allergies, or type N/A"
             }
@@ -10305,7 +10606,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Any additional information for your doctor"
             }
@@ -10326,7 +10629,9 @@
               "question": "Month",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -10422,7 +10727,9 @@
               "question": "Day",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -10651,7 +10958,9 @@
               "question": "Year",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -11304,7 +11613,10 @@
               "question": "Email Address",
               "required": true,
               "question_order": 1,
-              "validation": ["required", "email"],
+              "validation": [
+                "required",
+                "email"
+              ],
               "api_type": "TEXT",
               "placeholder": "you@example.com",
               "icon": "/assets/images/intake-form/icons/email-icon.svg"
@@ -11316,7 +11628,10 @@
               "question": "Phone Number",
               "required": true,
               "question_order": 2,
-              "validation": ["required", "phone"],
+              "validation": [
+                "required",
+                "phone"
+              ],
               "api_type": "TEXT",
               "placeholder": "123-456-7890",
               "icon": "/assets/images/intake-form/icons/phone-icon.svg"
@@ -11327,7 +11642,9 @@
               "type": "CHECKBOX",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": false,
               "options": [
@@ -11358,7 +11675,9 @@
               "question": "First Name",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your first name"
             },
@@ -11369,7 +11688,9 @@
               "question": "Last Name",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your last name"
             }
@@ -11387,7 +11708,10 @@
         "category": "Skin Hyperpigmentation Treatment",
         "estimatedTime": "10-15 minutes",
         "targetAudience": "Adults seeking treatment for skin hyperpigmentation and dark spots",
-        "compliance": ["HIPAA Compliant", "Medical Intake Form"]
+        "compliance": [
+          "HIPAA Compliant",
+          "Medical Intake Form"
+        ]
       },
       "progressSteps": [
         {
@@ -11446,7 +11770,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -11496,7 +11822,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -11567,7 +11895,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -11624,7 +11954,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -11674,7 +12006,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -11783,7 +12117,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -11840,7 +12176,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List current medical conditions, or type N/A"
             }
@@ -11860,7 +12198,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -11959,7 +12299,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List all known allergies, or type N/A"
             }
@@ -11979,7 +12321,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List medications with dosages, or type N/A"
             }
@@ -11999,7 +12343,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -12063,7 +12409,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List all skincare products you are using, or type N/A"
             }
@@ -12083,7 +12431,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Any additional information for your doctor"
             }
@@ -12104,7 +12454,9 @@
               "question": "Month",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -12200,7 +12552,9 @@
               "question": "Day",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -12429,7 +12783,9 @@
               "question": "Year",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -13082,7 +13438,10 @@
               "question": "Email Address",
               "required": true,
               "question_order": 1,
-              "validation": ["required", "email"],
+              "validation": [
+                "required",
+                "email"
+              ],
               "api_type": "TEXT",
               "placeholder": "you@example.com",
               "icon": "/assets/images/intake-form/icons/email-icon.svg"
@@ -13094,7 +13453,10 @@
               "question": "Phone Number",
               "required": true,
               "question_order": 2,
-              "validation": ["required", "phone"],
+              "validation": [
+                "required",
+                "phone"
+              ],
               "api_type": "TEXT",
               "placeholder": "123-456-7890",
               "icon": "/assets/images/intake-form/icons/phone-icon.svg"
@@ -13105,7 +13467,9 @@
               "type": "CHECKBOX",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": false,
               "options": [
@@ -13136,7 +13500,9 @@
               "question": "First Name",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your first name"
             },
@@ -13147,7 +13513,9 @@
               "question": "Last Name",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your last name"
             }
@@ -13165,7 +13533,10 @@
         "category": "Skin Anti-Aging Treatment",
         "estimatedTime": "10-15 minutes",
         "targetAudience": "Adults seeking anti-aging skin treatments and skincare solutions",
-        "compliance": ["HIPAA Compliant", "Medical Intake Form"]
+        "compliance": [
+          "HIPAA Compliant",
+          "Medical Intake Form"
+        ]
       },
       "progressSteps": [
         {
@@ -13224,7 +13595,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -13288,7 +13661,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -13338,7 +13713,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -13395,7 +13772,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -13445,7 +13824,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -13554,7 +13935,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -13618,7 +14001,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List current medical conditions, or type N/A"
             }
@@ -13638,7 +14023,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -13730,7 +14117,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List all known allergies, or type N/A"
             }
@@ -13750,7 +14139,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List medications with dosages, or type N/A"
             }
@@ -13770,7 +14161,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -13834,7 +14227,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List all skincare products you are using, or type N/A"
             }
@@ -13854,7 +14249,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Any additional information for your doctor"
             }
@@ -13875,7 +14272,9 @@
               "question": "Month",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -13971,7 +14370,9 @@
               "question": "Day",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -14200,7 +14601,9 @@
               "question": "Year",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -14853,7 +15256,10 @@
               "question": "Email Address",
               "required": true,
               "question_order": 1,
-              "validation": ["required", "email"],
+              "validation": [
+                "required",
+                "email"
+              ],
               "api_type": "TEXT",
               "placeholder": "you@example.com",
               "icon": "/assets/images/intake-form/icons/email-icon.svg"
@@ -14865,7 +15271,10 @@
               "question": "Phone Number",
               "required": true,
               "question_order": 2,
-              "validation": ["required", "phone"],
+              "validation": [
+                "required",
+                "phone"
+              ],
               "api_type": "TEXT",
               "placeholder": "123-456-7890",
               "icon": "/assets/images/intake-form/icons/phone-icon.svg"
@@ -14876,7 +15285,9 @@
               "type": "CHECKBOX",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": false,
               "options": [
@@ -14907,7 +15318,9 @@
               "question": "First Name",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your first name"
             },
@@ -14918,7 +15331,9 @@
               "question": "Last Name",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your last name"
             }
@@ -14936,7 +15351,10 @@
         "category": "Acne Treatment",
         "estimatedTime": "10-15 minutes",
         "targetAudience": "Adults seeking acne treatment and skincare solutions",
-        "compliance": ["HIPAA Compliant", "Medical Intake Form"]
+        "compliance": [
+          "HIPAA Compliant",
+          "Medical Intake Form"
+        ]
       },
       "progressSteps": [
         {
@@ -14995,7 +15413,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -15059,7 +15479,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -15130,7 +15552,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -15187,7 +15611,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -15237,7 +15663,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -15346,7 +15774,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -15403,7 +15833,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List current medical conditions, or type N/A"
             }
@@ -15423,7 +15855,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -15508,7 +15942,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List all known allergies, or type N/A"
             }
@@ -15528,7 +15964,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List medications with dosages, or type N/A"
             }
@@ -15548,7 +15986,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -15612,7 +16052,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List all skincare products you are using, or type N/A"
             }
@@ -15632,7 +16074,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Any additional information for your doctor"
             }
@@ -15653,7 +16097,9 @@
               "question": "Month",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -15749,7 +16195,9 @@
               "question": "Day",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -15978,7 +16426,9 @@
               "question": "Year",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -16631,7 +17081,10 @@
               "question": "Email Address",
               "required": true,
               "question_order": 1,
-              "validation": ["required", "email"],
+              "validation": [
+                "required",
+                "email"
+              ],
               "api_type": "TEXT",
               "placeholder": "you@example.com",
               "icon": "/assets/images/intake-form/icons/email-icon.svg"
@@ -16643,7 +17096,10 @@
               "question": "Phone Number",
               "required": true,
               "question_order": 2,
-              "validation": ["required", "phone"],
+              "validation": [
+                "required",
+                "phone"
+              ],
               "api_type": "TEXT",
               "placeholder": "123-456-7890",
               "icon": "/assets/images/intake-form/icons/phone-icon.svg"
@@ -16654,7 +17110,9 @@
               "type": "CHECKBOX",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": false,
               "options": [
@@ -16685,7 +17143,9 @@
               "question": "First Name",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your first name"
             },
@@ -16696,7 +17156,9 @@
               "question": "Last Name",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "Enter your last name"
             }
@@ -16714,7 +17176,10 @@
         "category": "Hair Loss Treatment",
         "estimatedTime": "10-15 minutes",
         "targetAudience": "Adults seeking hair growth treatments",
-        "compliance": ["HIPAA Compliant", "Medical Intake Form"]
+        "compliance": [
+          "HIPAA Compliant",
+          "Medical Intake Form"
+        ]
       },
       "progressSteps": [
         {
@@ -16773,7 +17238,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -16830,7 +17297,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -16880,7 +17349,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -16944,7 +17415,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -17082,7 +17555,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -17146,7 +17621,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -17196,7 +17673,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -17351,7 +17830,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List medications with dosages, or type N/A"
             }
@@ -17371,7 +17852,9 @@
               "type": "MULTISELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "MULTISELECT",
               "displayAsRow": true,
               "options": [
@@ -17428,7 +17911,9 @@
               "type": "textarea",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "TEXT",
               "placeholder": "List all known allergies, or type N/A"
             }
@@ -17448,7 +17933,9 @@
               "type": "SINGLESELECT",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": true,
               "options": [
@@ -17514,7 +18001,9 @@
               "question": "Month",
               "required": true,
               "question_order": 1,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -17610,7 +18099,9 @@
               "question": "Day",
               "required": true,
               "question_order": 2,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -17839,7 +18330,9 @@
               "question": "Year",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "DATE",
               "options": [
                 {
@@ -18492,7 +18985,10 @@
               "question": "Email Address",
               "required": true,
               "question_order": 1,
-              "validation": ["required", "email"],
+              "validation": [
+                "required",
+                "email"
+              ],
               "api_type": "TEXT",
               "placeholder": "you@example.com",
               "icon": "/assets/images/intake-form/icons/email-icon.svg"
@@ -18504,7 +19000,10 @@
               "question": "Phone Number",
               "required": true,
               "question_order": 2,
-              "validation": ["required", "phone"],
+              "validation": [
+                "required",
+                "phone"
+              ],
               "api_type": "TEXT",
               "placeholder": "123-456-7890",
               "icon": "/assets/images/intake-form/icons/phone-icon.svg"
@@ -18515,7 +19014,9 @@
               "type": "CHECKBOX",
               "required": true,
               "question_order": 3,
-              "validation": ["required"],
+              "validation": [
+                "required"
+              ],
               "api_type": "SINGLESELECT",
               "displayAsRow": false,
               "options": [
@@ -18531,6 +19032,2152 @@
           ]
         }
       ]
+    },
+    {
+      "id": "quiz-1768577030891-lwohmrn",
+      "slug": "glp1-weight-loss-custom-1768577030891",
+      "name": "GLP-1 Weight Loss Intake Form (Custom)",
+      "description": "Comprehensive medical intake form for GLP-1 weight loss medication",
+      "version": "1.0.0",
+      "metadata": {
+        "category": "medical",
+        "estimatedTime": "15-20 minutes",
+        "targetAudience": "Adults seeking weight loss medication",
+        "compliance": [
+          "HIPAA",
+          "FDA guidelines"
+        ]
+      },
+      "progressSteps": [
+        {
+          "id": "start",
+          "slug": "start",
+          "name": "Start",
+          "description": "Basic information and eligibility",
+          "color": "#A75809",
+          "order": 1
+        },
+        {
+          "id": "preliminary",
+          "slug": "preliminary",
+          "name": "Preliminary",
+          "description": "Motivation and medication history",
+          "color": "#A75809",
+          "order": 2
+        },
+        {
+          "id": "health",
+          "slug": "health",
+          "name": "Health",
+          "description": "Medical conditions and safety",
+          "color": "#A75809",
+          "order": 3
+        },
+        {
+          "id": "details",
+          "slug": "details",
+          "name": "Details",
+          "description": "Personal information and history",
+          "color": "#A75809",
+          "order": 4
+        },
+        {
+          "id": "eligibility",
+          "slug": "eligibility",
+          "name": "Eligibility",
+          "description": "Final review and contact information",
+          "color": "#A75809",
+          "order": 5
+        }
+      ],
+      "formSteps": [
+        {
+          "id": "heightWeight",
+          "slug": "heightWeight",
+          "title": "What is your height and weight? We'll calculate your BMI automatically",
+          "heading1": "BMI Calculation",
+          "progressStepId": "start",
+          "order": 1,
+          "renderCondition": null,
+          "displayValue": {
+            "condition": [
+              {
+                "field": "feet",
+                "operator": "notEquals",
+                "value": null
+              },
+              {
+                "field": "inches",
+                "operator": "notEquals",
+                "value": null
+              },
+              {
+                "field": "weight",
+                "operator": "notEquals",
+                "value": null
+              }
+            ],
+            "calculate": {
+              "type": "bmi",
+              "fields": [
+                "feet",
+                "inches",
+                "weight"
+              ]
+            },
+            "template": "BMI: {{value}}"
+          },
+          "questions": [
+            {
+              "id": "feet",
+              "slug": "feet",
+              "type": "DROPDOWN",
+              "question": "Feet",
+              "required": true,
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "TEXT",
+              "options": [
+                {
+                  "id": "opt-feet-1",
+                  "question_id": "feet",
+                  "value": 1,
+                  "label": "1",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-feet-2",
+                  "question_id": "feet",
+                  "value": 2,
+                  "label": "2",
+                  "option_order": 2
+                },
+                {
+                  "id": "opt-feet-3",
+                  "question_id": "feet",
+                  "value": 3,
+                  "label": "3",
+                  "option_order": 3
+                },
+                {
+                  "id": "opt-feet-4",
+                  "question_id": "feet",
+                  "value": 4,
+                  "label": "4",
+                  "option_order": 4
+                },
+                {
+                  "id": "opt-feet-5",
+                  "question_id": "feet",
+                  "value": 5,
+                  "label": "5",
+                  "option_order": 5
+                },
+                {
+                  "id": "opt-feet-6",
+                  "question_id": "feet",
+                  "value": 6,
+                  "label": "6",
+                  "option_order": 6
+                },
+                {
+                  "id": "opt-feet-7",
+                  "question_id": "feet",
+                  "value": 7,
+                  "label": "7",
+                  "option_order": 7
+                }
+              ]
+            },
+            {
+              "id": "inches",
+              "slug": "inches",
+              "type": "DROPDOWN",
+              "question": "Inches",
+              "required": true,
+              "question_order": 2,
+              "validation": [
+                "required"
+              ],
+              "api_type": "TEXT",
+              "options": [
+                {
+                  "id": "opt-inches-0",
+                  "question_id": "inches",
+                  "value": 0,
+                  "label": "0",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-inches-1",
+                  "question_id": "inches",
+                  "value": 1,
+                  "label": "1",
+                  "option_order": 2
+                },
+                {
+                  "id": "opt-inches-2",
+                  "question_id": "inches",
+                  "value": 2,
+                  "label": "2",
+                  "option_order": 3
+                },
+                {
+                  "id": "opt-inches-3",
+                  "question_id": "inches",
+                  "value": 3,
+                  "label": "3",
+                  "option_order": 4
+                },
+                {
+                  "id": "opt-inches-4",
+                  "question_id": "inches",
+                  "value": 4,
+                  "label": "4",
+                  "option_order": 5
+                },
+                {
+                  "id": "opt-inches-5",
+                  "question_id": "inches",
+                  "value": 5,
+                  "label": "5",
+                  "option_order": 6
+                },
+                {
+                  "id": "opt-inches-6",
+                  "question_id": "inches",
+                  "value": 6,
+                  "label": "6",
+                  "option_order": 7
+                },
+                {
+                  "id": "opt-inches-7",
+                  "question_id": "inches",
+                  "value": 7,
+                  "label": "7",
+                  "option_order": 8
+                },
+                {
+                  "id": "opt-inches-8",
+                  "question_id": "inches",
+                  "value": 8,
+                  "label": "8",
+                  "option_order": 9
+                },
+                {
+                  "id": "opt-inches-9",
+                  "question_id": "inches",
+                  "value": 9,
+                  "label": "9",
+                  "option_order": 10
+                },
+                {
+                  "id": "opt-inches-10",
+                  "question_id": "inches",
+                  "value": 10,
+                  "label": "10",
+                  "option_order": 11
+                },
+                {
+                  "id": "opt-inches-11",
+                  "question_id": "inches",
+                  "value": 11,
+                  "label": "11",
+                  "option_order": 12
+                }
+              ]
+            },
+            {
+              "id": "weight",
+              "slug": "weight",
+              "type": "number",
+              "question": "Weight (in lbs)",
+              "required": true,
+              "question_order": 3,
+              "validation": [
+                "required"
+              ],
+              "api_type": "TEXT",
+              "placeholder": "Enter your weight"
+            }
+          ]
+        },
+        {
+          "id": "marketing1",
+          "slug": "marketing1",
+          "heading1": "It feels like magic, but it's metabolic science.",
+          "progressStepId": "preliminary",
+          "order": 1,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "marketing1",
+              "slug": "marketing1",
+              "type": "MARKETING",
+              "required": false,
+              "question_order": 1,
+              "validation": null,
+              "api_type": "MARKETING",
+              "image": "/assets/images/intake-form/marketing/marketing1.png"
+            }
+          ]
+        },
+        {
+          "id": "marketing4",
+          "slug": "marketing4",
+          "heading1": "What our Patient says",
+          "progressStepId": "health",
+          "order": 1,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "marketing4",
+              "slug": "marketing4",
+              "type": "BEFORE_AFTER",
+              "required": false,
+              "question_order": 1,
+              "validation": null,
+              "api_type": "MARKETING",
+              "beforeImage": "/assets/images/intake-form/before-after/before2.png",
+              "afterImage": "/assets/images/intake-form/before-after/after2.png",
+              "quote": "After struggling with my weight for years, I finally found something that works. Down 30 pounds and counting!"
+            }
+          ]
+        },
+        {
+          "id": "surgicalHistory",
+          "slug": "surgicalHistory",
+          "heading1": "Have you had prior weight loss surgeries?",
+          "progressStepId": "details",
+          "order": 1,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "surgeries",
+              "slug": "surgeries",
+              "type": "SINGLESELECT",
+              "required": true,
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "SINGLESELECT",
+              "displayAsRow": true,
+              "options": [
+                {
+                  "id": "opt-surgeries-1",
+                  "question_id": "surgeries",
+                  "value": "Yes",
+                  "label": "Yes",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-surgeries-2",
+                  "question_id": "surgeries",
+                  "value": "No",
+                  "label": "No",
+                  "option_order": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dob",
+          "slug": "dob",
+          "title": "What is your date of birth?",
+          "progressStepId": "eligibility",
+          "order": 1,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "dobMonth",
+              "slug": "dobMonth",
+              "type": "DROPDOWN",
+              "question": "Month",
+              "required": true,
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "DATE",
+              "options": [
+                {
+                  "id": "opt-month-1",
+                  "question_id": "dobMonth",
+                  "value": 1,
+                  "label": "January",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-month-2",
+                  "question_id": "dobMonth",
+                  "value": 2,
+                  "label": "February",
+                  "option_order": 2
+                },
+                {
+                  "id": "opt-month-3",
+                  "question_id": "dobMonth",
+                  "value": 3,
+                  "label": "March",
+                  "option_order": 3
+                },
+                {
+                  "id": "opt-month-4",
+                  "question_id": "dobMonth",
+                  "value": 4,
+                  "label": "April",
+                  "option_order": 4
+                },
+                {
+                  "id": "opt-month-5",
+                  "question_id": "dobMonth",
+                  "value": 5,
+                  "label": "May",
+                  "option_order": 5
+                },
+                {
+                  "id": "opt-month-6",
+                  "question_id": "dobMonth",
+                  "value": 6,
+                  "label": "June",
+                  "option_order": 6
+                },
+                {
+                  "id": "opt-month-7",
+                  "question_id": "dobMonth",
+                  "value": 7,
+                  "label": "July",
+                  "option_order": 7
+                },
+                {
+                  "id": "opt-month-8",
+                  "question_id": "dobMonth",
+                  "value": 8,
+                  "label": "August",
+                  "option_order": 8
+                },
+                {
+                  "id": "opt-month-9",
+                  "question_id": "dobMonth",
+                  "value": 9,
+                  "label": "September",
+                  "option_order": 9
+                },
+                {
+                  "id": "opt-month-10",
+                  "question_id": "dobMonth",
+                  "value": 10,
+                  "label": "October",
+                  "option_order": 10
+                },
+                {
+                  "id": "opt-month-11",
+                  "question_id": "dobMonth",
+                  "value": 11,
+                  "label": "November",
+                  "option_order": 11
+                },
+                {
+                  "id": "opt-month-12",
+                  "question_id": "dobMonth",
+                  "value": 12,
+                  "label": "December",
+                  "option_order": 12
+                }
+              ]
+            },
+            {
+              "id": "dobDay",
+              "slug": "dobDay",
+              "type": "DROPDOWN",
+              "question": "Day",
+              "required": true,
+              "question_order": 2,
+              "validation": [
+                "required"
+              ],
+              "api_type": "DATE",
+              "options": [
+                {
+                  "id": "opt-day-1",
+                  "question_id": "dobDay",
+                  "value": 1,
+                  "label": "1",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-day-2",
+                  "question_id": "dobDay",
+                  "value": 2,
+                  "label": "2",
+                  "option_order": 2
+                },
+                {
+                  "id": "opt-day-3",
+                  "question_id": "dobDay",
+                  "value": 3,
+                  "label": "3",
+                  "option_order": 3
+                },
+                {
+                  "id": "opt-day-4",
+                  "question_id": "dobDay",
+                  "value": 4,
+                  "label": "4",
+                  "option_order": 4
+                },
+                {
+                  "id": "opt-day-5",
+                  "question_id": "dobDay",
+                  "value": 5,
+                  "label": "5",
+                  "option_order": 5
+                },
+                {
+                  "id": "opt-day-6",
+                  "question_id": "dobDay",
+                  "value": 6,
+                  "label": "6",
+                  "option_order": 6
+                },
+                {
+                  "id": "opt-day-7",
+                  "question_id": "dobDay",
+                  "value": 7,
+                  "label": "7",
+                  "option_order": 7
+                },
+                {
+                  "id": "opt-day-8",
+                  "question_id": "dobDay",
+                  "value": 8,
+                  "label": "8",
+                  "option_order": 8
+                },
+                {
+                  "id": "opt-day-9",
+                  "question_id": "dobDay",
+                  "value": 9,
+                  "label": "9",
+                  "option_order": 9
+                },
+                {
+                  "id": "opt-day-10",
+                  "question_id": "dobDay",
+                  "value": 10,
+                  "label": "10",
+                  "option_order": 10
+                },
+                {
+                  "id": "opt-day-11",
+                  "question_id": "dobDay",
+                  "value": 11,
+                  "label": "11",
+                  "option_order": 11
+                },
+                {
+                  "id": "opt-day-12",
+                  "question_id": "dobDay",
+                  "value": 12,
+                  "label": "12",
+                  "option_order": 12
+                },
+                {
+                  "id": "opt-day-13",
+                  "question_id": "dobDay",
+                  "value": 13,
+                  "label": "13",
+                  "option_order": 13
+                },
+                {
+                  "id": "opt-day-14",
+                  "question_id": "dobDay",
+                  "value": 14,
+                  "label": "14",
+                  "option_order": 14
+                },
+                {
+                  "id": "opt-day-15",
+                  "question_id": "dobDay",
+                  "value": 15,
+                  "label": "15",
+                  "option_order": 15
+                },
+                {
+                  "id": "opt-day-16",
+                  "question_id": "dobDay",
+                  "value": 16,
+                  "label": "16",
+                  "option_order": 16
+                },
+                {
+                  "id": "opt-day-17",
+                  "question_id": "dobDay",
+                  "value": 17,
+                  "label": "17",
+                  "option_order": 17
+                },
+                {
+                  "id": "opt-day-18",
+                  "question_id": "dobDay",
+                  "value": 18,
+                  "label": "18",
+                  "option_order": 18
+                },
+                {
+                  "id": "opt-day-19",
+                  "question_id": "dobDay",
+                  "value": 19,
+                  "label": "19",
+                  "option_order": 19
+                },
+                {
+                  "id": "opt-day-20",
+                  "question_id": "dobDay",
+                  "value": 20,
+                  "label": "20",
+                  "option_order": 20
+                },
+                {
+                  "id": "opt-day-21",
+                  "question_id": "dobDay",
+                  "value": 21,
+                  "label": "21",
+                  "option_order": 21
+                },
+                {
+                  "id": "opt-day-22",
+                  "question_id": "dobDay",
+                  "value": 22,
+                  "label": "22",
+                  "option_order": 22
+                },
+                {
+                  "id": "opt-day-23",
+                  "question_id": "dobDay",
+                  "value": 23,
+                  "label": "23",
+                  "option_order": 23
+                },
+                {
+                  "id": "opt-day-24",
+                  "question_id": "dobDay",
+                  "value": 24,
+                  "label": "24",
+                  "option_order": 24
+                },
+                {
+                  "id": "opt-day-25",
+                  "question_id": "dobDay",
+                  "value": 25,
+                  "label": "25",
+                  "option_order": 25
+                },
+                {
+                  "id": "opt-day-26",
+                  "question_id": "dobDay",
+                  "value": 26,
+                  "label": "26",
+                  "option_order": 26
+                },
+                {
+                  "id": "opt-day-27",
+                  "question_id": "dobDay",
+                  "value": 27,
+                  "label": "27",
+                  "option_order": 27
+                },
+                {
+                  "id": "opt-day-28",
+                  "question_id": "dobDay",
+                  "value": 28,
+                  "label": "28",
+                  "option_order": 28
+                },
+                {
+                  "id": "opt-day-29",
+                  "question_id": "dobDay",
+                  "value": 29,
+                  "label": "29",
+                  "option_order": 29
+                },
+                {
+                  "id": "opt-day-30",
+                  "question_id": "dobDay",
+                  "value": 30,
+                  "label": "30",
+                  "option_order": 30
+                },
+                {
+                  "id": "opt-day-31",
+                  "question_id": "dobDay",
+                  "value": 31,
+                  "label": "31",
+                  "option_order": 31
+                }
+              ]
+            },
+            {
+              "id": "dobYear",
+              "slug": "dobYear",
+              "type": "DROPDOWN",
+              "question": "Year",
+              "required": true,
+              "question_order": 3,
+              "validation": [
+                "required"
+              ],
+              "api_type": "DATE",
+              "options": [
+                {
+                  "id": "opt-year-2010",
+                  "question_id": "dobYear",
+                  "value": 2010,
+                  "label": "2010",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-year-2009",
+                  "question_id": "dobYear",
+                  "value": 2009,
+                  "label": "2009",
+                  "option_order": 2
+                },
+                {
+                  "id": "opt-year-2008",
+                  "question_id": "dobYear",
+                  "value": 2008,
+                  "label": "2008",
+                  "option_order": 3
+                },
+                {
+                  "id": "opt-year-2007",
+                  "question_id": "dobYear",
+                  "value": 2007,
+                  "label": "2007",
+                  "option_order": 4
+                },
+                {
+                  "id": "opt-year-2006",
+                  "question_id": "dobYear",
+                  "value": 2006,
+                  "label": "2006",
+                  "option_order": 5
+                },
+                {
+                  "id": "opt-year-2005",
+                  "question_id": "dobYear",
+                  "value": 2005,
+                  "label": "2005",
+                  "option_order": 6
+                },
+                {
+                  "id": "opt-year-2004",
+                  "question_id": "dobYear",
+                  "value": 2004,
+                  "label": "2004",
+                  "option_order": 7
+                },
+                {
+                  "id": "opt-year-2003",
+                  "question_id": "dobYear",
+                  "value": 2003,
+                  "label": "2003",
+                  "option_order": 8
+                },
+                {
+                  "id": "opt-year-2002",
+                  "question_id": "dobYear",
+                  "value": 2002,
+                  "label": "2002",
+                  "option_order": 9
+                },
+                {
+                  "id": "opt-year-2001",
+                  "question_id": "dobYear",
+                  "value": 2001,
+                  "label": "2001",
+                  "option_order": 10
+                },
+                {
+                  "id": "opt-year-2000",
+                  "question_id": "dobYear",
+                  "value": 2000,
+                  "label": "2000",
+                  "option_order": 11
+                },
+                {
+                  "id": "opt-year-1999",
+                  "question_id": "dobYear",
+                  "value": 1999,
+                  "label": "1999",
+                  "option_order": 12
+                },
+                {
+                  "id": "opt-year-1998",
+                  "question_id": "dobYear",
+                  "value": 1998,
+                  "label": "1998",
+                  "option_order": 13
+                },
+                {
+                  "id": "opt-year-1997",
+                  "question_id": "dobYear",
+                  "value": 1997,
+                  "label": "1997",
+                  "option_order": 14
+                },
+                {
+                  "id": "opt-year-1996",
+                  "question_id": "dobYear",
+                  "value": 1996,
+                  "label": "1996",
+                  "option_order": 15
+                },
+                {
+                  "id": "opt-year-1995",
+                  "question_id": "dobYear",
+                  "value": 1995,
+                  "label": "1995",
+                  "option_order": 16
+                },
+                {
+                  "id": "opt-year-1994",
+                  "question_id": "dobYear",
+                  "value": 1994,
+                  "label": "1994",
+                  "option_order": 17
+                },
+                {
+                  "id": "opt-year-1993",
+                  "question_id": "dobYear",
+                  "value": 1993,
+                  "label": "1993",
+                  "option_order": 18
+                },
+                {
+                  "id": "opt-year-1992",
+                  "question_id": "dobYear",
+                  "value": 1992,
+                  "label": "1992",
+                  "option_order": 19
+                },
+                {
+                  "id": "opt-year-1991",
+                  "question_id": "dobYear",
+                  "value": 1991,
+                  "label": "1991",
+                  "option_order": 20
+                },
+                {
+                  "id": "opt-year-1990",
+                  "question_id": "dobYear",
+                  "value": 1990,
+                  "label": "1990",
+                  "option_order": 21
+                },
+                {
+                  "id": "opt-year-1989",
+                  "question_id": "dobYear",
+                  "value": 1989,
+                  "label": "1989",
+                  "option_order": 22
+                },
+                {
+                  "id": "opt-year-1988",
+                  "question_id": "dobYear",
+                  "value": 1988,
+                  "label": "1988",
+                  "option_order": 23
+                },
+                {
+                  "id": "opt-year-1987",
+                  "question_id": "dobYear",
+                  "value": 1987,
+                  "label": "1987",
+                  "option_order": 24
+                },
+                {
+                  "id": "opt-year-1986",
+                  "question_id": "dobYear",
+                  "value": 1986,
+                  "label": "1986",
+                  "option_order": 25
+                },
+                {
+                  "id": "opt-year-1985",
+                  "question_id": "dobYear",
+                  "value": 1985,
+                  "label": "1985",
+                  "option_order": 26
+                },
+                {
+                  "id": "opt-year-1984",
+                  "question_id": "dobYear",
+                  "value": 1984,
+                  "label": "1984",
+                  "option_order": 27
+                },
+                {
+                  "id": "opt-year-1983",
+                  "question_id": "dobYear",
+                  "value": 1983,
+                  "label": "1983",
+                  "option_order": 28
+                },
+                {
+                  "id": "opt-year-1982",
+                  "question_id": "dobYear",
+                  "value": 1982,
+                  "label": "1982",
+                  "option_order": 29
+                },
+                {
+                  "id": "opt-year-1981",
+                  "question_id": "dobYear",
+                  "value": 1981,
+                  "label": "1981",
+                  "option_order": 30
+                },
+                {
+                  "id": "opt-year-1980",
+                  "question_id": "dobYear",
+                  "value": 1980,
+                  "label": "1980",
+                  "option_order": 31
+                },
+                {
+                  "id": "opt-year-1979",
+                  "question_id": "dobYear",
+                  "value": 1979,
+                  "label": "1979",
+                  "option_order": 32
+                },
+                {
+                  "id": "opt-year-1978",
+                  "question_id": "dobYear",
+                  "value": 1978,
+                  "label": "1978",
+                  "option_order": 33
+                },
+                {
+                  "id": "opt-year-1977",
+                  "question_id": "dobYear",
+                  "value": 1977,
+                  "label": "1977",
+                  "option_order": 34
+                },
+                {
+                  "id": "opt-year-1976",
+                  "question_id": "dobYear",
+                  "value": 1976,
+                  "label": "1976",
+                  "option_order": 35
+                },
+                {
+                  "id": "opt-year-1975",
+                  "question_id": "dobYear",
+                  "value": 1975,
+                  "label": "1975",
+                  "option_order": 36
+                },
+                {
+                  "id": "opt-year-1974",
+                  "question_id": "dobYear",
+                  "value": 1974,
+                  "label": "1974",
+                  "option_order": 37
+                },
+                {
+                  "id": "opt-year-1973",
+                  "question_id": "dobYear",
+                  "value": 1973,
+                  "label": "1973",
+                  "option_order": 38
+                },
+                {
+                  "id": "opt-year-1972",
+                  "question_id": "dobYear",
+                  "value": 1972,
+                  "label": "1972",
+                  "option_order": 39
+                },
+                {
+                  "id": "opt-year-1971",
+                  "question_id": "dobYear",
+                  "value": 1971,
+                  "label": "1971",
+                  "option_order": 40
+                },
+                {
+                  "id": "opt-year-1970",
+                  "question_id": "dobYear",
+                  "value": 1970,
+                  "label": "1970",
+                  "option_order": 41
+                },
+                {
+                  "id": "opt-year-1969",
+                  "question_id": "dobYear",
+                  "value": 1969,
+                  "label": "1969",
+                  "option_order": 42
+                },
+                {
+                  "id": "opt-year-1968",
+                  "question_id": "dobYear",
+                  "value": 1968,
+                  "label": "1968",
+                  "option_order": 43
+                },
+                {
+                  "id": "opt-year-1967",
+                  "question_id": "dobYear",
+                  "value": 1967,
+                  "label": "1967",
+                  "option_order": 44
+                },
+                {
+                  "id": "opt-year-1966",
+                  "question_id": "dobYear",
+                  "value": 1966,
+                  "label": "1966",
+                  "option_order": 45
+                },
+                {
+                  "id": "opt-year-1965",
+                  "question_id": "dobYear",
+                  "value": 1965,
+                  "label": "1965",
+                  "option_order": 46
+                },
+                {
+                  "id": "opt-year-1964",
+                  "question_id": "dobYear",
+                  "value": 1964,
+                  "label": "1964",
+                  "option_order": 47
+                },
+                {
+                  "id": "opt-year-1963",
+                  "question_id": "dobYear",
+                  "value": 1963,
+                  "label": "1963",
+                  "option_order": 48
+                },
+                {
+                  "id": "opt-year-1962",
+                  "question_id": "dobYear",
+                  "value": 1962,
+                  "label": "1962",
+                  "option_order": 49
+                },
+                {
+                  "id": "opt-year-1961",
+                  "question_id": "dobYear",
+                  "value": 1961,
+                  "label": "1961",
+                  "option_order": 50
+                },
+                {
+                  "id": "opt-year-1960",
+                  "question_id": "dobYear",
+                  "value": 1960,
+                  "label": "1960",
+                  "option_order": 51
+                },
+                {
+                  "id": "opt-year-1959",
+                  "question_id": "dobYear",
+                  "value": 1959,
+                  "label": "1959",
+                  "option_order": 52
+                },
+                {
+                  "id": "opt-year-1958",
+                  "question_id": "dobYear",
+                  "value": 1958,
+                  "label": "1958",
+                  "option_order": 53
+                },
+                {
+                  "id": "opt-year-1957",
+                  "question_id": "dobYear",
+                  "value": 1957,
+                  "label": "1957",
+                  "option_order": 54
+                },
+                {
+                  "id": "opt-year-1956",
+                  "question_id": "dobYear",
+                  "value": 1956,
+                  "label": "1956",
+                  "option_order": 55
+                },
+                {
+                  "id": "opt-year-1955",
+                  "question_id": "dobYear",
+                  "value": 1955,
+                  "label": "1955",
+                  "option_order": 56
+                },
+                {
+                  "id": "opt-year-1954",
+                  "question_id": "dobYear",
+                  "value": 1954,
+                  "label": "1954",
+                  "option_order": 57
+                },
+                {
+                  "id": "opt-year-1953",
+                  "question_id": "dobYear",
+                  "value": 1953,
+                  "label": "1953",
+                  "option_order": 58
+                },
+                {
+                  "id": "opt-year-1952",
+                  "question_id": "dobYear",
+                  "value": 1952,
+                  "label": "1952",
+                  "option_order": 59
+                },
+                {
+                  "id": "opt-year-1951",
+                  "question_id": "dobYear",
+                  "value": 1951,
+                  "label": "1951",
+                  "option_order": 60
+                },
+                {
+                  "id": "opt-year-1950",
+                  "question_id": "dobYear",
+                  "value": 1950,
+                  "label": "1950",
+                  "option_order": 61
+                },
+                {
+                  "id": "opt-year-1949",
+                  "question_id": "dobYear",
+                  "value": 1949,
+                  "label": "1949",
+                  "option_order": 62
+                },
+                {
+                  "id": "opt-year-1948",
+                  "question_id": "dobYear",
+                  "value": 1948,
+                  "label": "1948",
+                  "option_order": 63
+                },
+                {
+                  "id": "opt-year-1947",
+                  "question_id": "dobYear",
+                  "value": 1947,
+                  "label": "1947",
+                  "option_order": 64
+                },
+                {
+                  "id": "opt-year-1946",
+                  "question_id": "dobYear",
+                  "value": 1946,
+                  "label": "1946",
+                  "option_order": 65
+                },
+                {
+                  "id": "opt-year-1945",
+                  "question_id": "dobYear",
+                  "value": 1945,
+                  "label": "1945",
+                  "option_order": 66
+                },
+                {
+                  "id": "opt-year-1944",
+                  "question_id": "dobYear",
+                  "value": 1944,
+                  "label": "1944",
+                  "option_order": 67
+                },
+                {
+                  "id": "opt-year-1943",
+                  "question_id": "dobYear",
+                  "value": 1943,
+                  "label": "1943",
+                  "option_order": 68
+                },
+                {
+                  "id": "opt-year-1942",
+                  "question_id": "dobYear",
+                  "value": 1942,
+                  "label": "1942",
+                  "option_order": 69
+                },
+                {
+                  "id": "opt-year-1941",
+                  "question_id": "dobYear",
+                  "value": 1941,
+                  "label": "1941",
+                  "option_order": 70
+                },
+                {
+                  "id": "opt-year-1940",
+                  "question_id": "dobYear",
+                  "value": 1940,
+                  "label": "1940",
+                  "option_order": 71
+                },
+                {
+                  "id": "opt-year-1939",
+                  "question_id": "dobYear",
+                  "value": 1939,
+                  "label": "1939",
+                  "option_order": 72
+                },
+                {
+                  "id": "opt-year-1938",
+                  "question_id": "dobYear",
+                  "value": 1938,
+                  "label": "1938",
+                  "option_order": 73
+                },
+                {
+                  "id": "opt-year-1937",
+                  "question_id": "dobYear",
+                  "value": 1937,
+                  "label": "1937",
+                  "option_order": 74
+                },
+                {
+                  "id": "opt-year-1936",
+                  "question_id": "dobYear",
+                  "value": 1936,
+                  "label": "1936",
+                  "option_order": 75
+                },
+                {
+                  "id": "opt-year-1935",
+                  "question_id": "dobYear",
+                  "value": 1935,
+                  "label": "1935",
+                  "option_order": 76
+                },
+                {
+                  "id": "opt-year-1934",
+                  "question_id": "dobYear",
+                  "value": 1934,
+                  "label": "1934",
+                  "option_order": 77
+                },
+                {
+                  "id": "opt-year-1933",
+                  "question_id": "dobYear",
+                  "value": 1933,
+                  "label": "1933",
+                  "option_order": 78
+                },
+                {
+                  "id": "opt-year-1932",
+                  "question_id": "dobYear",
+                  "value": 1932,
+                  "label": "1932",
+                  "option_order": 79
+                },
+                {
+                  "id": "opt-year-1931",
+                  "question_id": "dobYear",
+                  "value": 1931,
+                  "label": "1931",
+                  "option_order": 80
+                },
+                {
+                  "id": "opt-year-1930",
+                  "question_id": "dobYear",
+                  "value": 1930,
+                  "label": "1930",
+                  "option_order": 81
+                },
+                {
+                  "id": "opt-year-1929",
+                  "question_id": "dobYear",
+                  "value": 1929,
+                  "label": "1929",
+                  "option_order": 82
+                },
+                {
+                  "id": "opt-year-1928",
+                  "question_id": "dobYear",
+                  "value": 1928,
+                  "label": "1928",
+                  "option_order": 83
+                },
+                {
+                  "id": "opt-year-1927",
+                  "question_id": "dobYear",
+                  "value": 1927,
+                  "label": "1927",
+                  "option_order": 84
+                },
+                {
+                  "id": "opt-year-1926",
+                  "question_id": "dobYear",
+                  "value": 1926,
+                  "label": "1926",
+                  "option_order": 85
+                },
+                {
+                  "id": "opt-year-1925",
+                  "question_id": "dobYear",
+                  "value": 1925,
+                  "label": "1925",
+                  "option_order": 86
+                },
+                {
+                  "id": "opt-year-1924",
+                  "question_id": "dobYear",
+                  "value": 1924,
+                  "label": "1924",
+                  "option_order": 87
+                },
+                {
+                  "id": "opt-year-1923",
+                  "question_id": "dobYear",
+                  "value": 1923,
+                  "label": "1923",
+                  "option_order": 88
+                },
+                {
+                  "id": "opt-year-1922",
+                  "question_id": "dobYear",
+                  "value": 1922,
+                  "label": "1922",
+                  "option_order": 89
+                },
+                {
+                  "id": "opt-year-1921",
+                  "question_id": "dobYear",
+                  "value": 1921,
+                  "label": "1921",
+                  "option_order": 90
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "goalWeight",
+          "slug": "goalWeight",
+          "title": "What is your goal weight?",
+          "heading1": "We are in this together. Your goal is our goal.",
+          "progressStepId": "start",
+          "order": 2,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "goalWeight",
+              "slug": "goalWeight",
+              "type": "number",
+              "required": true,
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "TEXT",
+              "placeholder": "Enter your goal weight"
+            }
+          ]
+        },
+        {
+          "id": "marketing2",
+          "slug": "marketing2",
+          "heading1": "What our Patient says",
+          "progressStepId": "preliminary",
+          "order": 2,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "marketing2",
+              "slug": "marketing2",
+              "type": "BEFORE_AFTER",
+              "required": false,
+              "question_order": 1,
+              "validation": null,
+              "api_type": "MARKETING",
+              "beforeImage": "/assets/images/intake-form/before-after/before1.png",
+              "afterImage": "/assets/images/intake-form/before-after/after1.png",
+              "quote": "I lost 45 pounds in 6 months and feel like a completely different person. This medication changed my life!"
+            }
+          ]
+        },
+        {
+          "id": "marketing5",
+          "slug": "marketing5",
+          "heading1": "What our Patient says",
+          "progressStepId": "health",
+          "order": 2,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "marketing5",
+              "slug": "marketing5",
+              "type": "BEFORE_AFTER",
+              "required": false,
+              "question_order": 1,
+              "validation": null,
+              "api_type": "MARKETING",
+              "beforeImage": "/assets/images/intake-form/before-after/before3.png",
+              "afterImage": "/assets/images/intake-form/before-after/after3.png",
+              "quote": "I never thought I could feel this confident again. The weight loss has been incredible and sustainable."
+            }
+          ]
+        },
+        {
+          "id": "marketing6",
+          "slug": "marketing6",
+          "heading1": "What our Patient says",
+          "progressStepId": "details",
+          "order": 2,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "marketing6",
+              "slug": "marketing6",
+              "type": "BEFORE_AFTER",
+              "required": false,
+              "question_order": 1,
+              "validation": null,
+              "api_type": "MARKETING",
+              "beforeImage": "/assets/images/intake-form/before-after/before4.png",
+              "afterImage": "/assets/images/intake-form/before-after/after4.png",
+              "quote": "This medication gave me my life back. I have more energy, confidence, and I'm finally in control of my health."
+            }
+          ]
+        },
+        {
+          "id": "personalInfo",
+          "slug": "personalInfo",
+          "heading1": "Let's get your contact details",
+          "heading2": "to complete your intake form",
+          "progressStepId": "eligibility",
+          "order": 2,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "email",
+              "slug": "email",
+              "type": "email",
+              "question": "Email Address",
+              "required": true,
+              "question_order": 1,
+              "validation": [
+                "required",
+                "email"
+              ],
+              "api_type": "TEXT",
+              "placeholder": "you@example.com",
+              "icon": "/assets/images/intake-form/icons/email-icon.svg"
+            },
+            {
+              "id": "phone",
+              "slug": "phone",
+              "type": "tel",
+              "question": "Phone Number",
+              "required": true,
+              "question_order": 2,
+              "validation": [
+                "required",
+                "phone"
+              ],
+              "api_type": "TEXT",
+              "placeholder": "123-456-7890",
+              "icon": "/assets/images/intake-form/icons/phone-icon.svg"
+            },
+            {
+              "id": "consent",
+              "slug": "consent",
+              "type": "CHECKBOX",
+              "required": true,
+              "question_order": 3,
+              "validation": [
+                "required"
+              ],
+              "api_type": "SINGLESELECT",
+              "displayAsRow": false,
+              "options": [
+                {
+                  "id": "opt-consent-1",
+                  "question_id": "consent",
+                  "value": "I confirm that I am the patient completing this intake form and have reviewed all questions carefully. I attest that my answers are true, accurate, and complete to the best of my knowledge. I understand the importance of providing my doctor with complete and accurate health information for my care.",
+                  "label": "I confirm that I am the patient completing this intake form and have reviewed all questions carefully. I attest that my answers are true, accurate, and complete to the best of my knowledge. I understand the importance of providing my doctor with complete and accurate health information for my care.",
+                  "option_order": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "triedInPast",
+          "slug": "triedInPast",
+          "heading1": "What weight loss initiatives have you tried in the past?",
+          "subtext": "Select all that apply.",
+          "progressStepId": "start",
+          "order": 3,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "pastInitiatives",
+              "slug": "pastInitiatives",
+              "type": "MULTISELECT",
+              "required": true,
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "MULTISELECT",
+              "displayAsRow": true,
+              "options": [
+                {
+                  "id": "opt-past-1",
+                  "question_id": "pastInitiatives",
+                  "value": "Exercise",
+                  "label": "Exercise",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-past-2",
+                  "question_id": "pastInitiatives",
+                  "value": "Dieting",
+                  "label": "Dieting",
+                  "option_order": 2
+                },
+                {
+                  "id": "opt-past-3",
+                  "question_id": "pastInitiatives",
+                  "value": "Weight-loss Supplements",
+                  "label": "Weight-loss Supplements",
+                  "option_order": 3
+                },
+                {
+                  "id": "opt-past-4",
+                  "question_id": "pastInitiatives",
+                  "value": "Intermittent Fasting",
+                  "label": "Intermittent Fasting",
+                  "option_order": 4
+                },
+                {
+                  "id": "opt-past-5",
+                  "question_id": "pastInitiatives",
+                  "value": "None of these",
+                  "label": "None of these",
+                  "option_order": 5
+                }
+              ],
+              "optionImages": [
+                "/assets/images/intake-form/option-icons/triedInPast_option1.svg",
+                "/assets/images/intake-form/option-icons/triedInPast_option2.svg",
+                "/assets/images/intake-form/option-icons/triedInPast_option3.svg",
+                "/assets/images/intake-form/option-icons/triedInPast_option4.svg",
+                "/assets/images/intake-form/option-icons/triedInPast_option5.svg"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "marketing3",
+          "slug": "marketing3",
+          "heading1": "How will GLP work for you?",
+          "progressStepId": "preliminary",
+          "order": 3,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "marketing3",
+              "slug": "marketing3",
+              "type": "MARKETING",
+              "required": false,
+              "question_order": 1,
+              "validation": null,
+              "api_type": "MARKETING",
+              "image": "/assets/images/intake-form/marketing/marketing3.png",
+              "displayStatistics": true
+            }
+          ]
+        },
+        {
+          "id": "healthConditions1",
+          "slug": "healthConditions1",
+          "title": "Do any of these apply to you?",
+          "heading1": "GLP-1 is safe, but these health conditions might prevent you from being prescribed.",
+          "subtext": "Your answers are completely confidential and protected by HIPAA",
+          "progressStepId": "health",
+          "order": 3,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "conditions1",
+              "slug": "conditions1",
+              "type": "MULTISELECT",
+              "required": true,
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "MULTISELECT",
+              "displayAsRow": true,
+              "options": [
+                {
+                  "id": "opt-conditions1-1",
+                  "question_id": "conditions1",
+                  "value": "None of these ",
+                  "label": "None of these ",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-conditions1-2",
+                  "question_id": "conditions1",
+                  "value": "End-stage kidney disease (on or about to be on dialysis)",
+                  "label": "End-stage kidney disease (on or about to be on dialysis)",
+                  "option_order": 2
+                },
+                {
+                  "id": "opt-conditions1-3",
+                  "question_id": "conditions1",
+                  "value": "End-stage liver disease (cirrhosis)",
+                  "label": "End-stage liver disease (cirrhosis)",
+                  "option_order": 3
+                },
+                {
+                  "id": "opt-conditions1-4",
+                  "question_id": "conditions1",
+                  "value": "Current suicidal thoughts and/or prior suicidal attempt",
+                  "label": "Current suicidal thoughts and/or prior suicidal attempt",
+                  "option_order": 4
+                },
+                {
+                  "id": "opt-conditions1-5",
+                  "question_id": "conditions1",
+                  "value": "Cancer (active diagnosis, active treatment, or in remission or cancer-free for less than 5 continuous years does not apply to non-melanoma skin cancer that was considered cured via simple excision)",
+                  "label": "Cancer (active diagnosis, active treatment, or in remission or cancer-free for less than 5 continuous years does not apply to non-melanoma skin cancer that was considered cured via simple excision)",
+                  "option_order": 5
+                },
+                {
+                  "id": "opt-conditions1-6",
+                  "question_id": "conditions1",
+                  "value": "History of organ transplant on anti-rejection medication",
+                  "label": "History of organ transplant on anti-rejection medication",
+                  "option_order": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "currentMedications",
+          "slug": "currentMedications",
+          "heading1": "Do you currently take any medications?",
+          "progressStepId": "details",
+          "order": 3,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "medication",
+              "slug": "medication",
+              "type": "SINGLESELECT",
+              "required": true,
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "SINGLESELECT",
+              "displayAsRow": true,
+              "image": "/assets/images/intake-form/marketing/marketing7.png",
+              "options": [
+                {
+                  "id": "opt-medication-1",
+                  "question_id": "medication",
+                  "value": "Yes",
+                  "label": "Yes",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-medication-2",
+                  "question_id": "medication",
+                  "value": "No",
+                  "label": "No",
+                  "option_order": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "idUploadUniversal",
+          "slug": "idUploadUniversal",
+          "title": "Please upload a government issued form of ID: Driver's License, Passport, etc",
+          "subtext": "Be sure that your full name and photo are easily visible",
+          "progressStepId": "eligibility",
+          "order": 3,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "firstName",
+              "slug": "firstName",
+              "type": "text",
+              "question": "First Name",
+              "required": true,
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "TEXT",
+              "placeholder": "Enter your first name"
+            },
+            {
+              "id": "lastName",
+              "slug": "lastName",
+              "type": "text",
+              "question": "Last Name",
+              "required": true,
+              "question_order": 2,
+              "validation": [
+                "required"
+              ],
+              "api_type": "TEXT",
+              "placeholder": "Enter your last name"
+            }
+          ]
+        },
+        {
+          "id": "gender",
+          "slug": "gender",
+          "heading1": "Are you male or female?",
+          "subtext": "This helps us understand your body complexity and hormones so we can assess you better.",
+          "progressStepId": "start",
+          "order": 4,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "gender",
+              "slug": "gender",
+              "type": "SINGLESELECT",
+              "required": true,
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "SINGLESELECT",
+              "displayAsRow": true,
+              "options": [
+                {
+                  "id": "opt-gender-1",
+                  "question_id": "gender",
+                  "value": "Male",
+                  "label": "Male",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-gender-2",
+                  "question_id": "gender",
+                  "value": "Female",
+                  "label": "Female",
+                  "option_order": 2
+                }
+              ],
+              "optionImages": [
+                "/assets/images/intake-form/option-icons/gender_option1.svg",
+                "/assets/images/intake-form/option-icons/gender_option2.svg"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "motivation",
+          "slug": "motivation",
+          "title": "What is your primary reason for looking into GLP-1 medication?",
+          "heading1": "Improving your life requires motivation",
+          "progressStepId": "preliminary",
+          "order": 4,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "motivation",
+              "slug": "motivation",
+              "type": "SINGLESELECT",
+              "required": true,
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "SINGLESELECT",
+              "displayAsRow": true,
+              "options": [
+                {
+                  "id": "opt-motivation-1",
+                  "question_id": "motivation",
+                  "value": "Improve health",
+                  "label": "Improve health",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-motivation-2",
+                  "question_id": "motivation",
+                  "value": "Feel more confident",
+                  "label": "Feel more confident",
+                  "option_order": 2
+                },
+                {
+                  "id": "opt-motivation-3",
+                  "question_id": "motivation",
+                  "value": "Increase energy levels",
+                  "label": "Increase energy levels",
+                  "option_order": 3
+                },
+                {
+                  "id": "opt-motivation-4",
+                  "question_id": "motivation",
+                  "value": "Other",
+                  "label": "Other",
+                  "option_order": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "healthConditions2",
+          "slug": "healthConditions2",
+          "title": "Do any of these apply to you?",
+          "heading1": "A few more health questions",
+          "progressStepId": "health",
+          "order": 4,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "conditions2",
+              "slug": "conditions2",
+              "type": "MULTISELECT",
+              "required": true,
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "MULTISELECT",
+              "displayAsRow": true,
+              "options": [
+                {
+                  "id": "opt-conditions2-1",
+                  "question_id": "conditions2",
+                  "value": "None of these",
+                  "label": "None of these",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-conditions2-2",
+                  "question_id": "conditions2",
+                  "value": "Gallbladder disease",
+                  "label": "Gallbladder disease",
+                  "option_order": 2
+                },
+                {
+                  "id": "opt-conditions2-3",
+                  "question_id": "conditions2",
+                  "value": "Hypertension (high blood pressure) ",
+                  "label": "Hypertension (high blood pressure) ",
+                  "option_order": 3
+                },
+                {
+                  "id": "opt-conditions2-4",
+                  "question_id": "conditions2",
+                  "value": "Seizures",
+                  "label": "Seizures",
+                  "option_order": 4
+                },
+                {
+                  "id": "opt-conditions2-5",
+                  "question_id": "conditions2",
+                  "value": "Glaucoma",
+                  "label": "Glaucoma",
+                  "option_order": 5
+                },
+                {
+                  "id": "opt-conditions2-6",
+                  "question_id": "conditions2",
+                  "value": "Sleep apnea",
+                  "label": "Sleep apnea",
+                  "option_order": 6
+                },
+                {
+                  "id": "opt-conditions2-7",
+                  "question_id": "conditions2",
+                  "value": "Type 2 diabetes (not on insulin)",
+                  "label": "Type 2 diabetes (not on insulin)",
+                  "option_order": 7
+                },
+                {
+                  "id": "opt-conditions2-8",
+                  "question_id": "conditions2",
+                  "value": "Type 2 diabetes (on insulin)",
+                  "label": "Type 2 diabetes (on insulin)",
+                  "option_order": 8
+                },
+                {
+                  "id": "opt-conditions2-9",
+                  "question_id": "conditions2",
+                  "value": "Type 1 diabetes",
+                  "label": "Type 1 diabetes",
+                  "option_order": 9
+                },
+                {
+                  "id": "opt-conditions2-10",
+                  "question_id": "conditions2",
+                  "value": "Diabetic retinopathy (diabetic eye disease), damage to the optic nerve from trauma or reduced blood flow, or blindness",
+                  "label": "Diabetic retinopathy (diabetic eye disease), damage to the optic nerve from trauma or reduced blood flow, or blindness",
+                  "option_order": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "motivationLevel",
+          "slug": "motivationLevel",
+          "dynamicTitle": "How motivated are you to reach {{goalWeight}}lbs?",
+          "heading1": "Let's better understand your current state of mind.",
+          "progressStepId": "details",
+          "order": 4,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "motivationLevel",
+              "slug": "motivationLevel",
+              "type": "SINGLESELECT",
+              "required": true,
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "SINGLESELECT",
+              "displayAsRow": true,
+              "options": [
+                {
+                  "id": "opt-motivationLevel-1",
+                  "question_id": "motivationLevel",
+                  "value": "I'm ready",
+                  "label": "I'm ready",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-motivationLevel-2",
+                  "question_id": "motivationLevel",
+                  "value": "I'm feeling hopeful",
+                  "label": "I'm feeling hopeful",
+                  "option_order": 2
+                },
+                {
+                  "id": "opt-motivationLevel-3",
+                  "question_id": "motivationLevel",
+                  "value": "I'm cautious",
+                  "label": "I'm cautious",
+                  "option_order": 3
+                }
+              ],
+              "optionImages": [
+                "/assets/images/intake-form/option-icons/motivationLevel_option1.svg",
+                "/assets/images/intake-form/option-icons/motivationLevel_option2.svg",
+                "/assets/images/intake-form/option-icons/motivationLevel_option3.svg"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pregnancy",
+          "slug": "pregnancy",
+          "title": "Do any of these apply to you?",
+          "heading1": "Safety, first.",
+          "progressStepId": "start",
+          "order": 5,
+          "renderCondition": {
+            "conditions": [
+              {
+                "field": "gender",
+                "operator": "equals",
+                "value": "Female"
+              }
+            ],
+            "logicalOperator": "AND"
+          },
+          "questions": [
+            {
+              "id": "pregnancy",
+              "slug": "pregnancy",
+              "type": "MULTISELECT",
+              "required": false,
+              "question_order": 1,
+              "validation": null,
+              "api_type": "MULTISELECT",
+              "displayAsRow": true,
+              "options": [
+                {
+                  "id": "opt-pregnancy-1",
+                  "question_id": "pregnancy",
+                  "value": "Currently or possibly pregnant",
+                  "label": "Currently or possibly pregnant",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-pregnancy-2",
+                  "question_id": "pregnancy",
+                  "value": "Actively trying to become pregnant",
+                  "label": "Actively trying to become pregnant",
+                  "option_order": 2
+                },
+                {
+                  "id": "opt-pregnancy-3",
+                  "question_id": "pregnancy",
+                  "value": "Breastfeeding",
+                  "label": "Breastfeeding",
+                  "option_order": 3
+                },
+                {
+                  "id": "opt-pregnancy-4",
+                  "question_id": "pregnancy",
+                  "value": "None of the above",
+                  "label": "None of the above",
+                  "option_order": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "medication",
+          "slug": "medication",
+          "heading1": "Are you currently taking any GLP-1 medications?",
+          "progressStepId": "preliminary",
+          "order": 5,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "glp1",
+              "slug": "glp1",
+              "type": "SINGLESELECT",
+              "required": true,
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "SINGLESELECT",
+              "displayAsRow": true,
+              "options": [
+                {
+                  "id": "opt-glp1-1",
+                  "question_id": "glp1",
+                  "value": "Yes",
+                  "label": "Yes",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-glp1-2",
+                  "question_id": "glp1",
+                  "value": "No",
+                  "label": "No",
+                  "option_order": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pace",
+          "slug": "pace",
+          "title": "How is that pace for you?",
+          "heading1": "With medication, you'll lose {{weeklyLossRange}} pounds per week.",
+          "dynamicSubtext": "It will take about {{timeToGoal}} weeks to reach your goal weight of {{goalWeight}}.",
+          "subtext": "This is an estimate. Individual results may vary.",
+          "progressStepId": "preliminary",
+          "order": 6,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "pace",
+              "slug": "pace",
+              "type": "SINGLESELECT",
+              "required": true,
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "SINGLESELECT",
+              "displayAsRow": true,
+              "options": [
+                {
+                  "id": "opt-pace-1",
+                  "question_id": "pace",
+                  "value": "That works for me",
+                  "label": "That works for me",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-pace-2",
+                  "question_id": "pace",
+                  "value": "I want it faster",
+                  "label": "I want it faster",
+                  "option_order": 2
+                },
+                {
+                  "id": "opt-pace-3",
+                  "question_id": "pace",
+                  "value": "That's too fast",
+                  "label": "That's too fast",
+                  "option_order": 3
+                }
+              ],
+              "optionImages": [
+                "/assets/images/intake-form/option-icons/pace_option1.svg",
+                "/assets/images/intake-form/option-icons/pace_option2.svg",
+                "/assets/images/intake-form/option-icons/pace_option3.svg"
+              ]
+            }
+          ],
+          "render_condition": {
+            "conditions": [
+              {
+                "field": "pastInitiatives",
+                "operator": "equals",
+                "value": [
+                  "Dieting"
+                ]
+              }
+            ],
+            "logicalOperator": "AND"
+          }
+        },
+        {
+          "id": "perfect",
+          "slug": "perfect",
+          "progressStepId": "preliminary",
+          "order": 7,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "perfect",
+              "slug": "perfect",
+              "type": "PERFECT",
+              "required": false,
+              "question_order": 1,
+              "validation": null,
+              "api_type": "TEXT",
+              "heading1": "Perfect!",
+              "dynamicSubtext": "Losing {{weight-goalWeight}}lbs is easier than you think - and it doesn't involve restrictive diets.",
+              "subtext": "Now, let's analyze your metabolism and discover how well your body processes macronutrients."
+            }
+          ]
+        }
+      ],
+      "isManual": true
     }
   ],
   "templates": [],
@@ -18539,4 +21186,3 @@
     "lastUpdated": "2024-01-20T15:45:00.000Z"
   }
 }
-
