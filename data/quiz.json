@@ -20586,27 +20586,6 @@
           ]
         },
         {
-          "id": "marketing3",
-          "slug": "marketing3",
-          "heading1": "How will GLP work for you?",
-          "progressStepId": "preliminary",
-          "order": 3,
-          "renderCondition": null,
-          "questions": [
-            {
-              "id": "marketing3",
-              "slug": "marketing3",
-              "type": "MARKETING",
-              "required": false,
-              "question_order": 1,
-              "validation": null,
-              "api_type": "MARKETING",
-              "image": "/assets/images/intake-form/marketing/marketing3.png",
-              "displayStatistics": true
-            }
-          ]
-        },
-        {
           "id": "healthConditions1",
           "slug": "healthConditions1",
           "title": "Do any of these apply to you?",
@@ -20989,6 +20968,27 @@
                 "/assets/images/intake-form/option-icons/motivationLevel_option2.svg",
                 "/assets/images/intake-form/option-icons/motivationLevel_option3.svg"
               ]
+            }
+          ]
+        },
+        {
+          "id": "marketing3",
+          "slug": "marketing3",
+          "heading1": "How will GLP work for you?",
+          "progressStepId": "preliminary",
+          "order": 5,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "marketing3",
+              "slug": "marketing3",
+              "type": "MARKETING",
+              "required": false,
+              "question_order": 1,
+              "validation": null,
+              "api_type": "MARKETING",
+              "image": "/assets/images/intake-form/marketing/marketing3.png",
+              "displayStatistics": true
             }
           ]
         },
