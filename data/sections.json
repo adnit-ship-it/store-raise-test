@@ -7,7 +7,7 @@
           "src": "/assets/images/brand/logo-secondary-1.svg",
           "alt": "brand logo",
           "type": "svg-image",
-          "show": true
+          "show": false
         },
         "heading": {
           "text": "Raesa, We Got You",
