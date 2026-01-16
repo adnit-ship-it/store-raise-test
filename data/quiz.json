@@ -21310,8 +21310,54 @@
               "question_order": 5,
               "validation": null,
               "api_type": "TEXT"
+            },
+            {
+              "slug": "gender",
+              "type": "SINGLESELECT",
+              "question": "Whats your gender?",
+              "displayQuestion": null,
+              "placeholder": null,
+              "required": false,
+              "api_type": "TEXT",
+              "validation": null,
+              "icon": "",
+              "displayAsRow": false,
+              "optionImages": [
+                "",
+                ""
+              ],
+              "image": "",
+              "displayStatistics": false,
+              "beforeImage": "",
+              "afterImage": "",
+              "quote": "",
+              "calculatedValues": {},
+              "candidateStatement": "",
+              "heading1": "",
+              "subtext": "",
+              "dynamicSubtext": "",
+              "form_step_id": "basic-text-inputs",
+              "question_order": 6,
+              "options": [
+                {
+                  "id": "temp-1768586321223",
+                  "question_id": "basic-text-inputs",
+                  "value": "Female",
+                  "label": "Female",
+                  "option_order": 1
+                },
+                {
+                  "id": "temp-1768586334508-r8f6r0y",
+                  "question_id": "basic-text-inputs",
+                  "value": "Male",
+                  "label": "Male",
+                  "option_order": 2
+                }
+              ],
+              "id": "question-1768586339819"
             }
-          ]
+          ],
+          "render_condition": null
         },
         {
           "id": "selection-questions",
@@ -21523,9 +21569,9 @@
           "render_condition": {
             "conditions": [
               {
-                "field": "number-input",
+                "field": "email-input",
                 "operator": "equals",
-                "value": "14"
+                "value": ""
               }
             ],
             "logicalOperator": "AND"
