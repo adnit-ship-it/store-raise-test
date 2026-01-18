@@ -21506,8 +21506,8 @@
           "title": "Special Question Types",
           "heading1": "Special Types",
           "subtext": "Marketing, before/after, file upload, medical review",
-          "progressStepId": "special-types",
-          "order": 3,
+          "progressStepId": "selection-types",
+          "order": 2,
           "renderCondition": null,
           "questions": [
             {
