@@ -575,7 +575,7 @@
       },
       {
         "logo": {
-          "src": "/assets/images/brand/logo-primary-1.svg",
+          "src": "/assets/images/brand/logo-secondary-1.svg",
           "alt": "brand logo",
           "type": "svg-image",
           "sizes": {
