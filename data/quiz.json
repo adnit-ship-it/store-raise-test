@@ -21919,7 +21919,17 @@
                 }
               ]
             }
-          ]
+          ],
+          "render_condition": {
+            "conditions": [
+              {
+                "field": "physicalActivity",
+                "operator": "equals",
+                "value": "Athletic"
+              }
+            ],
+            "logicalOperator": "AND"
+          }
         },
         {
           "id": "interestInNad",
