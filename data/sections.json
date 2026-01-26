@@ -254,7 +254,7 @@
           {
             "text": "1000+ Patients",
             "type": "button",
-            "color": "accentColor1",
+            "color": "bodyColor",
             "backgroundColor": "accentColor1",
             "show": true
           },
