@@ -24180,6 +24180,27 @@
         }
       ],
       "isManual": true
+    },
+    {
+      "id": "quiz-1769442668138-ly6tff7",
+      "slug": "test-quiz",
+      "name": "Test quiz",
+      "description": "test quiz",
+      "version": "1.0.0",
+      "metadata": null,
+      "productBundleIds": [],
+      "progressSteps": [
+        {
+          "id": "progress-1769442668138-1",
+          "slug": "information",
+          "name": "Information",
+          "description": "Provide your information",
+          "color": "#3B82F6",
+          "order": 1
+        }
+      ],
+      "formSteps": [],
+      "isManual": true
     }
   ],
   "templates": [],
