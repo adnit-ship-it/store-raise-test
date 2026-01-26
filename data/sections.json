@@ -346,6 +346,17 @@
               "name": "Michael R.",
               "order": 3
             }
+          },
+          {
+            "image": {
+              "src": "/assets/images/image-1769438647544.png",
+              "alt": "asd",
+              "type": "image",
+              "stars": 5,
+              "testimonial": "",
+              "name": "LULU",
+              "order": 4
+            }
           }
         ]
       }
