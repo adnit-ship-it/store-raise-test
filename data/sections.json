@@ -261,7 +261,7 @@
           {
             "text": "Worldwide Care",
             "type": "button",
-            "color": "accentColor1",
+            "color": "accentColor2",
             "backgroundColor": "accentColor1",
             "show": true
           },
