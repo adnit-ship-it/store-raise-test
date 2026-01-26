@@ -215,6 +215,16 @@
               "color": "#A75809"
             },
             "order": 5
+          },
+          {
+            "title": "asdas",
+            "subtext": "dasasdasd",
+            "icon": {
+              "src": "/assets/images/intake-form/icons/check_circle.svg",
+              "alt": "",
+              "type": "svg-image",
+              "color": "accentColor1"
+            }
           }
         ]
       }
