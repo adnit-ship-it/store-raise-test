@@ -23972,17 +23972,30 @@
               "quote": "I lost 30 pounds in 3 months!"
             },
             {
-              "id": "file-upload",
               "slug": "file-upload",
               "type": "FILE_INPUT",
               "question": "Upload your ID",
               "displayQuestion": "ID Upload",
-              "required": true,
+              "placeholder": null,
+              "required": false,
+              "api_type": "FILE",
+              "validation": null,
+              "icon": "",
+              "displayAsRow": false,
+              "optionImages": [],
+              "image": "",
+              "displayStatistics": false,
+              "beforeImage": "",
+              "afterImage": "",
+              "quote": "",
+              "calculatedValues": {},
+              "candidateStatement": "",
+              "heading1": "",
+              "subtext": "",
+              "dynamicSubtext": "",
+              "form_step_id": "special-question-types",
               "question_order": 3,
-              "validation": [
-                "required"
-              ],
-              "api_type": "FILE"
+              "id": "file-upload"
             },
             {
               "id": "medical-review",
@@ -24001,7 +24014,8 @@
               },
               "candidateStatement": "Based on your responses, you are a good candidate for this treatment."
             }
-          ]
+          ],
+          "render_condition": null
         },
         {
           "id": "display-question-types",
@@ -24037,6 +24051,48 @@
               "api_type": "TEXT"
             }
           ]
+        },
+        {
+          "id": "temp-1769441423856-u3an3gn",
+          "slug": "special-types-2",
+          "title": "special Types 2",
+          "heading1": "Second step",
+          "subtext": null,
+          "config": null,
+          "is_template_step": false,
+          "render_condition": null,
+          "questions": [
+            {
+              "slug": "fileInput",
+              "type": "FILE_INPUT",
+              "question": "Please upload an ID",
+              "displayQuestion": null,
+              "placeholder": "Please upload your if",
+              "required": true,
+              "api_type": "TEXT",
+              "validation": [
+                "required"
+              ],
+              "icon": "",
+              "displayAsRow": false,
+              "optionImages": [],
+              "image": "",
+              "displayStatistics": false,
+              "beforeImage": "",
+              "afterImage": "",
+              "quote": "",
+              "calculatedValues": {},
+              "candidateStatement": "",
+              "heading1": "",
+              "subtext": "",
+              "dynamicSubtext": "",
+              "form_step_id": "temp-1769441423856-u3an3gn",
+              "question_order": 1,
+              "id": "question-1769441466216"
+            }
+          ],
+          "order": 4,
+          "progressStepId": "special-types"
         },
         {
           "id": "temp-1769441423856-u3an3gn",
