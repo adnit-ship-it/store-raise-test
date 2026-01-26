@@ -264,6 +264,13 @@
             "color": "accentColor1",
             "backgroundColor": "accentColor1",
             "show": true
+          },
+          {
+            "text": "zxczxc",
+            "type": "button",
+            "color": "backgroundColor",
+            "backgroundColor": "accentColor2",
+            "show": true
           }
         ]
       },
