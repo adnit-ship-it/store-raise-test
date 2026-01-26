@@ -547,7 +547,8 @@
             "No Hidden Fees",
             "Free, Expedited Delivery",
             "Doctor-led Plans & Coaching",
-            "Money Back Guarantee"
+            "Money Back Guarantee",
+            "asdasd"
           ]
         }
       },
@@ -566,6 +567,10 @@
           "bulletpoints": [
             {
               "text": "Unlimited appointments",
+              "showIcon": true
+            },
+            {
+              "text": "asdasdasdasdasdas",
               "showIcon": true
             }
           ],
