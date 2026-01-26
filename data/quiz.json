@@ -23958,49 +23958,6 @@
               "beforeImage": "/assets/images/before-after-1.png",
               "afterImage": "/assets/images/before-after-2.png",
               "quote": "I lost 30 pounds in 3 months!"
-            },
-            {
-              "slug": "file-upload",
-              "type": "FILE_INPUT",
-              "question": "Upload your ID",
-              "displayQuestion": "ID Upload",
-              "placeholder": null,
-              "required": false,
-              "api_type": "FILE",
-              "validation": null,
-              "icon": "",
-              "displayAsRow": false,
-              "optionImages": [],
-              "image": "",
-              "displayStatistics": false,
-              "beforeImage": "",
-              "afterImage": "",
-              "quote": "",
-              "calculatedValues": {},
-              "candidateStatement": "",
-              "heading1": "",
-              "subtext": "",
-              "dynamicSubtext": "",
-              "form_step_id": "special-question-types",
-              "question_order": 2,
-              "id": "file-upload"
-            },
-            {
-              "id": "medical-review",
-              "slug": "medical-review",
-              "type": "MEDICAL_REVIEW",
-              "question": "Medical Review",
-              "displayQuestion": "Review Your Information",
-              "required": false,
-              "question_order": 3,
-              "validation": null,
-              "api_type": "TEXT",
-              "calculatedValues": {
-                "bmi": "25.5",
-                "currentWeight": "180",
-                "weeksToGoal": "12"
-              },
-              "candidateStatement": "Based on your responses, you are a good candidate for this treatment."
             }
           ],
           "render_condition": null
@@ -24205,6 +24162,19 @@
               "id": "question-1769441466216"
             }
           ],
+          "order": 4,
+          "progressStepId": "special-types"
+        },
+        {
+          "id": "temp-1769442277967-38tc11a",
+          "slug": "upload-your-id",
+          "title": "Upload your ID",
+          "heading1": "Personal documents",
+          "subtext": null,
+          "config": null,
+          "is_template_step": false,
+          "render_condition": null,
+          "questions": [],
           "order": 4,
           "progressStepId": "special-types"
         }
