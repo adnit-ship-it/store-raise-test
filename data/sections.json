@@ -126,6 +126,10 @@
           {
             "src": "/assets/images/clients/new-york-times.png",
             "alt": "The New York Times logo"
+          },
+          {
+            "src": "/assets/images/brand/logo-secondary-1.svg",
+            "alt": "asdasd"
           }
         ]
       }
