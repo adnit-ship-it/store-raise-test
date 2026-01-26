@@ -21735,219 +21735,6 @@
           ]
         },
         {
-          "id": "heightWeight",
-          "slug": "heightWeight",
-          "title": "What is your height and weight? We'll calculate your BMI automatically",
-          "heading1": "BMI Calculation",
-          "progressStepId": "preliminary",
-          "order": 1,
-          "renderCondition": null,
-          "displayValue": {
-            "condition": [
-              {
-                "field": "feet",
-                "operator": "notEquals",
-                "value": null
-              },
-              {
-                "field": "inches",
-                "operator": "notEquals",
-                "value": null
-              },
-              {
-                "field": "weight",
-                "operator": "notEquals",
-                "value": null
-              }
-            ],
-            "calculate": {
-              "type": "bmi",
-              "fields": [
-                "feet",
-                "inches",
-                "weight"
-              ]
-            },
-            "template": "BMI: {{value}}"
-          },
-          "questions": [
-            {
-              "id": "feet",
-              "slug": "feet",
-              "type": "DROPDOWN",
-              "question": "Feet",
-              "required": true,
-              "question_order": 1,
-              "validation": [
-                "required"
-              ],
-              "api_type": "TEXT",
-              "options": [
-                {
-                  "id": "opt-nad-plus-feet-1",
-                  "question_id": "feet",
-                  "value": 1,
-                  "label": "1",
-                  "option_order": 1
-                },
-                {
-                  "id": "opt-nad-plus-feet-2",
-                  "question_id": "feet",
-                  "value": 2,
-                  "label": "2",
-                  "option_order": 2
-                },
-                {
-                  "id": "opt-nad-plus-feet-3",
-                  "question_id": "feet",
-                  "value": 3,
-                  "label": "3",
-                  "option_order": 3
-                },
-                {
-                  "id": "opt-nad-plus-feet-4",
-                  "question_id": "feet",
-                  "value": 4,
-                  "label": "4",
-                  "option_order": 4
-                },
-                {
-                  "id": "opt-nad-plus-feet-5",
-                  "question_id": "feet",
-                  "value": 5,
-                  "label": "5",
-                  "option_order": 5
-                },
-                {
-                  "id": "opt-nad-plus-feet-6",
-                  "question_id": "feet",
-                  "value": 6,
-                  "label": "6",
-                  "option_order": 6
-                },
-                {
-                  "id": "opt-nad-plus-feet-7",
-                  "question_id": "feet",
-                  "value": 7,
-                  "label": "7",
-                  "option_order": 7
-                }
-              ]
-            },
-            {
-              "id": "inches",
-              "slug": "inches",
-              "type": "DROPDOWN",
-              "question": "Inches",
-              "required": true,
-              "question_order": 2,
-              "validation": [
-                "required"
-              ],
-              "api_type": "TEXT",
-              "options": [
-                {
-                  "id": "opt-nad-plus-inches-0",
-                  "question_id": "inches",
-                  "value": 0,
-                  "label": "0",
-                  "option_order": 1
-                },
-                {
-                  "id": "opt-nad-plus-inches-1",
-                  "question_id": "inches",
-                  "value": 1,
-                  "label": "1",
-                  "option_order": 2
-                },
-                {
-                  "id": "opt-nad-plus-inches-2",
-                  "question_id": "inches",
-                  "value": 2,
-                  "label": "2",
-                  "option_order": 3
-                },
-                {
-                  "id": "opt-nad-plus-inches-3",
-                  "question_id": "inches",
-                  "value": 3,
-                  "label": "3",
-                  "option_order": 4
-                },
-                {
-                  "id": "opt-nad-plus-inches-4",
-                  "question_id": "inches",
-                  "value": 4,
-                  "label": "4",
-                  "option_order": 5
-                },
-                {
-                  "id": "opt-nad-plus-inches-5",
-                  "question_id": "inches",
-                  "value": 5,
-                  "label": "5",
-                  "option_order": 6
-                },
-                {
-                  "id": "opt-nad-plus-inches-6",
-                  "question_id": "inches",
-                  "value": 6,
-                  "label": "6",
-                  "option_order": 7
-                },
-                {
-                  "id": "opt-nad-plus-inches-7",
-                  "question_id": "inches",
-                  "value": 7,
-                  "label": "7",
-                  "option_order": 8
-                },
-                {
-                  "id": "opt-nad-plus-inches-8",
-                  "question_id": "inches",
-                  "value": 8,
-                  "label": "8",
-                  "option_order": 9
-                },
-                {
-                  "id": "opt-nad-plus-inches-9",
-                  "question_id": "inches",
-                  "value": 9,
-                  "label": "9",
-                  "option_order": 10
-                },
-                {
-                  "id": "opt-nad-plus-inches-10",
-                  "question_id": "inches",
-                  "value": 10,
-                  "label": "10",
-                  "option_order": 11
-                },
-                {
-                  "id": "opt-nad-plus-inches-11",
-                  "question_id": "inches",
-                  "value": 11,
-                  "label": "11",
-                  "option_order": 12
-                }
-              ]
-            },
-            {
-              "id": "weight",
-              "slug": "weight",
-              "type": "number",
-              "question": "Weight (in lbs)",
-              "required": true,
-              "question_order": 3,
-              "validation": [
-                "required"
-              ],
-              "api_type": "TEXT",
-              "placeholder": "Enter your weight"
-            }
-          ]
-        },
-        {
           "id": "gender",
           "slug": "gender",
           "title": "What is your gender?",
@@ -23171,6 +22958,219 @@
                   "option_order": 90
                 }
               ]
+            }
+          ]
+        },
+        {
+          "id": "heightWeight",
+          "slug": "heightWeight",
+          "title": "What is your height and weight? We'll calculate your BMI automatically",
+          "heading1": "BMI Calculation",
+          "progressStepId": "preliminary",
+          "order": 3,
+          "renderCondition": null,
+          "displayValue": {
+            "condition": [
+              {
+                "field": "feet",
+                "operator": "notEquals",
+                "value": null
+              },
+              {
+                "field": "inches",
+                "operator": "notEquals",
+                "value": null
+              },
+              {
+                "field": "weight",
+                "operator": "notEquals",
+                "value": null
+              }
+            ],
+            "calculate": {
+              "type": "bmi",
+              "fields": [
+                "feet",
+                "inches",
+                "weight"
+              ]
+            },
+            "template": "BMI: {{value}}"
+          },
+          "questions": [
+            {
+              "id": "feet",
+              "slug": "feet",
+              "type": "DROPDOWN",
+              "question": "Feet",
+              "required": true,
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "TEXT",
+              "options": [
+                {
+                  "id": "opt-nad-plus-feet-1",
+                  "question_id": "feet",
+                  "value": 1,
+                  "label": "1",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-nad-plus-feet-2",
+                  "question_id": "feet",
+                  "value": 2,
+                  "label": "2",
+                  "option_order": 2
+                },
+                {
+                  "id": "opt-nad-plus-feet-3",
+                  "question_id": "feet",
+                  "value": 3,
+                  "label": "3",
+                  "option_order": 3
+                },
+                {
+                  "id": "opt-nad-plus-feet-4",
+                  "question_id": "feet",
+                  "value": 4,
+                  "label": "4",
+                  "option_order": 4
+                },
+                {
+                  "id": "opt-nad-plus-feet-5",
+                  "question_id": "feet",
+                  "value": 5,
+                  "label": "5",
+                  "option_order": 5
+                },
+                {
+                  "id": "opt-nad-plus-feet-6",
+                  "question_id": "feet",
+                  "value": 6,
+                  "label": "6",
+                  "option_order": 6
+                },
+                {
+                  "id": "opt-nad-plus-feet-7",
+                  "question_id": "feet",
+                  "value": 7,
+                  "label": "7",
+                  "option_order": 7
+                }
+              ]
+            },
+            {
+              "id": "inches",
+              "slug": "inches",
+              "type": "DROPDOWN",
+              "question": "Inches",
+              "required": true,
+              "question_order": 2,
+              "validation": [
+                "required"
+              ],
+              "api_type": "TEXT",
+              "options": [
+                {
+                  "id": "opt-nad-plus-inches-0",
+                  "question_id": "inches",
+                  "value": 0,
+                  "label": "0",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-nad-plus-inches-1",
+                  "question_id": "inches",
+                  "value": 1,
+                  "label": "1",
+                  "option_order": 2
+                },
+                {
+                  "id": "opt-nad-plus-inches-2",
+                  "question_id": "inches",
+                  "value": 2,
+                  "label": "2",
+                  "option_order": 3
+                },
+                {
+                  "id": "opt-nad-plus-inches-3",
+                  "question_id": "inches",
+                  "value": 3,
+                  "label": "3",
+                  "option_order": 4
+                },
+                {
+                  "id": "opt-nad-plus-inches-4",
+                  "question_id": "inches",
+                  "value": 4,
+                  "label": "4",
+                  "option_order": 5
+                },
+                {
+                  "id": "opt-nad-plus-inches-5",
+                  "question_id": "inches",
+                  "value": 5,
+                  "label": "5",
+                  "option_order": 6
+                },
+                {
+                  "id": "opt-nad-plus-inches-6",
+                  "question_id": "inches",
+                  "value": 6,
+                  "label": "6",
+                  "option_order": 7
+                },
+                {
+                  "id": "opt-nad-plus-inches-7",
+                  "question_id": "inches",
+                  "value": 7,
+                  "label": "7",
+                  "option_order": 8
+                },
+                {
+                  "id": "opt-nad-plus-inches-8",
+                  "question_id": "inches",
+                  "value": 8,
+                  "label": "8",
+                  "option_order": 9
+                },
+                {
+                  "id": "opt-nad-plus-inches-9",
+                  "question_id": "inches",
+                  "value": 9,
+                  "label": "9",
+                  "option_order": 10
+                },
+                {
+                  "id": "opt-nad-plus-inches-10",
+                  "question_id": "inches",
+                  "value": 10,
+                  "label": "10",
+                  "option_order": 11
+                },
+                {
+                  "id": "opt-nad-plus-inches-11",
+                  "question_id": "inches",
+                  "value": 11,
+                  "label": "11",
+                  "option_order": 12
+                }
+              ]
+            },
+            {
+              "id": "weight",
+              "slug": "weight",
+              "type": "number",
+              "question": "Weight (in lbs)",
+              "required": true,
+              "question_order": 3,
+              "validation": [
+                "required"
+              ],
+              "api_type": "TEXT",
+              "placeholder": "Enter your weight"
             }
           ]
         },
