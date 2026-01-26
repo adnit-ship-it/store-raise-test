@@ -148,13 +148,13 @@
         "button": {
           "text": "Start Today",
           "type": "button",
-          "color": "accentColor1",
+          "color": "accentColor2",
           "backgroundColor": "accentColor1",
           "show": true
         },
         "media": {
           "progressLine": {
-            "color": "#d9d9d9"
+            "color": "accentColor1"
           },
           "progressDots": {
             "color": "accentColor1"
