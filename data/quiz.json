@@ -24177,6 +24177,19 @@
           "questions": [],
           "order": 4,
           "progressStepId": "special-types"
+        },
+        {
+          "id": "temp-1769442277967-38tc11a",
+          "slug": "upload-your-id",
+          "title": "Upload your ID",
+          "heading1": "Personal documents",
+          "subtext": null,
+          "config": null,
+          "is_template_step": false,
+          "render_condition": null,
+          "questions": [],
+          "order": 4,
+          "progressStepId": "special-types"
         }
       ],
       "isManual": true
