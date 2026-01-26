@@ -23947,24 +23947,12 @@
           "renderCondition": null,
           "questions": [
             {
-              "id": "marketing-question",
-              "slug": "marketing-question",
-              "type": "MARKETING",
-              "question": "Success Stories",
-              "required": false,
-              "question_order": 1,
-              "validation": null,
-              "api_type": "MARKETING",
-              "image": "/assets/images/marketing-hero.jpg",
-              "displayStatistics": true
-            },
-            {
               "id": "before-after",
               "slug": "before-after",
               "type": "BEFORE_AFTER",
               "question": "See the transformation",
               "required": false,
-              "question_order": 2,
+              "question_order": 1,
               "validation": null,
               "api_type": "MARKETING",
               "beforeImage": "/assets/images/before-after-1.png",
@@ -23994,7 +23982,7 @@
               "subtext": "",
               "dynamicSubtext": "",
               "form_step_id": "special-question-types",
-              "question_order": 3,
+              "question_order": 2,
               "id": "file-upload"
             },
             {
@@ -24004,7 +23992,7 @@
               "question": "Medical Review",
               "displayQuestion": "Review Your Information",
               "required": false,
-              "question_order": 4,
+              "question_order": 3,
               "validation": null,
               "api_type": "TEXT",
               "calculatedValues": {
@@ -24051,6 +24039,90 @@
               "api_type": "TEXT"
             }
           ]
+        },
+        {
+          "id": "temp-1769441423856-u3an3gn",
+          "slug": "special-types-2",
+          "title": "special Types 2",
+          "heading1": "Second step",
+          "subtext": null,
+          "config": null,
+          "is_template_step": false,
+          "render_condition": null,
+          "questions": [
+            {
+              "slug": "fileInput",
+              "type": "FILE_INPUT",
+              "question": "Please upload an ID",
+              "displayQuestion": null,
+              "placeholder": "Please upload your if",
+              "required": true,
+              "api_type": "TEXT",
+              "validation": [
+                "required"
+              ],
+              "icon": "",
+              "displayAsRow": false,
+              "optionImages": [],
+              "image": "",
+              "displayStatistics": false,
+              "beforeImage": "",
+              "afterImage": "",
+              "quote": "",
+              "calculatedValues": {},
+              "candidateStatement": "",
+              "heading1": "",
+              "subtext": "",
+              "dynamicSubtext": "",
+              "form_step_id": "temp-1769441423856-u3an3gn",
+              "question_order": 1,
+              "id": "question-1769441466216"
+            }
+          ],
+          "order": 4,
+          "progressStepId": "special-types"
+        },
+        {
+          "id": "temp-1769441423856-u3an3gn",
+          "slug": "special-types-2",
+          "title": "special Types 2",
+          "heading1": "Second step",
+          "subtext": null,
+          "config": null,
+          "is_template_step": false,
+          "render_condition": null,
+          "questions": [
+            {
+              "slug": "fileInput",
+              "type": "FILE_INPUT",
+              "question": "Please upload an ID",
+              "displayQuestion": null,
+              "placeholder": "Please upload your if",
+              "required": true,
+              "api_type": "TEXT",
+              "validation": [
+                "required"
+              ],
+              "icon": "",
+              "displayAsRow": false,
+              "optionImages": [],
+              "image": "",
+              "displayStatistics": false,
+              "beforeImage": "",
+              "afterImage": "",
+              "quote": "",
+              "calculatedValues": {},
+              "candidateStatement": "",
+              "heading1": "",
+              "subtext": "",
+              "dynamicSubtext": "",
+              "form_step_id": "temp-1769441423856-u3an3gn",
+              "question_order": 1,
+              "id": "question-1769441466216"
+            }
+          ],
+          "order": 4,
+          "progressStepId": "special-types"
         },
         {
           "id": "temp-1769441423856-u3an3gn",
